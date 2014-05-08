@@ -23,3 +23,16 @@ Here is a list of the articles (white papers) which have been written so far. Th
     {% endif %}
 {% endfor %}
 ----
+
+# TurtleBot pages
+
+{% for p in site.pages %}
+    {% if p.tags contains 'TurtleBot' %}
+----
+#### [{{ p.title }}]({{ site.baseurl }}{{ p.url }})
+
+{{ p.abstract }}
+    {% endif %}
+{% endfor %}
+----
+
