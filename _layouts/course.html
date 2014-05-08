@@ -9,10 +9,9 @@
 {% if page.previous %}
 <div class="content-continaer col-md-9">
   <h2> Previous Courses </h2
-  <ul>
-{% for prev in page.previous %}
-    <li> <a href="{{site.baseurl}}/{{prev}}">Previous Coures Baseurl: {{site.baseurl}}{{prev}}</a>
-{% endfor %}
+  <ul>{% for prev in page.previous %}
+    <li> <a href="{{site.baseurl}}/{{prev}}">Previous Course {{prev}}</a></li>
+       {% endfor %}
   </ul>
 </div>
 {% endif %}
@@ -21,16 +20,12 @@
 <div class="content-continaer col-md-9">
   <h2> Required Skills </h2>
 {% for prereq in page.requirements %}
-  Skill {{prereq}}
+  Skill: {{prereq}}<br>
+  Provided by:
+  <ul>
   {% for p in site.pages %}
-    {% for s in p.skills %}
-    {% if s == prereq %}
-    <li> <a href="{{site.baseurl}}{{p.url}}">{{p.title}}</a>
-    {% endif %}
-  {% endfor %}
-
-  {% endfor %}
-{% endfor %}
+    {% for s in p.skills %}{% if s == prereq %} <li> <a href="{{site.baseurl}}{{p.url}}">{{p.title}}</a></li>
+{% endif %}{% endfor %}{% endfor %}{% endfor %}
   </ul>
 </div>
 {% endif %}

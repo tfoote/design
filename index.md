@@ -17,6 +17,7 @@ Here is a list of the articles (white papers) which have been written so far. Th
 {% for p in site.pages %}
     {% if p.url contains 'articles/' %}
 ----
+
 #### [{{ p.title }}]({{ site.baseurl }}{{ p.url }})
 
 {{ p.abstract }}
@@ -29,6 +30,7 @@ Here is a list of the articles (white papers) which have been written so far. Th
 {% for p in site.pages %}
     {% if p.tags contains 'TurtleBot' %}
 ----
+
 #### [{{ p.title }}]({{ site.baseurl }}{{ p.url }})
 
 {{ p.abstract }}
