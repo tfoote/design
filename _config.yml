@@ -1,7 +1,7 @@
 name: ROS2 Design
 description: "Distilled design documents related to the ROS 2.0 effort"
 
-baseurl: http://tfoote.github.io/design
+baseurl: https://tfoote.github.io/design
 repo: https://github.com/tfoote/design
 
 oauth_client_id: efa6dd8eae9106381720
