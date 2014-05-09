@@ -1,6 +1,6 @@
 # ROS 2.0 design
 
-This repository is a [Jekyll](http://jekyllrb.com/) website hosted on [Github Pages](http://pages.github.com/) at http://design.ros2.org/.
+This repository is a [Jekyll](http://jekyllrb.com/) website hosted on [Github Pages](http://pages.github.com/) at https://tfoote.github.io/design/
 
 The repository/website is meant to be a point around which users can collaborate on the ROS 2.0 design efforts as well as capture those discussions for posterity.
 
