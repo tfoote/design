@@ -24,13 +24,13 @@ Here is a list of courses available so far.
 {% endfor %}
 ----
 
-# Topics
+# Units
 
-Here is a list of topics available so far. 
+Here is a list of units available so far. 
 
 
 {% for p in site.pages %}
-    {% if p.url contains 'articles/' and p.layout == 'topic' %}
+    {% if p.url contains 'articles/' and p.layout == 'unit' %}
 ----
 
 #### [{{ p.title }}]({{ site.baseurl }}{{ p.url }})
