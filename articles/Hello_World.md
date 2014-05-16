@@ -1,10 +1,11 @@
 ---
 layout: course
-title: Hello World
+title: Geometry
 abstract:
-  How to say hello world
+  Basic geometry
 tags: [TurtleBot, Kobuki]
 skills: [reading]
+topics: [triangles]
 ---
 
 

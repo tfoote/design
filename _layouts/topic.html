@@ -1,10 +1,9 @@
-{% include header.html %}
+g{% include header.html %}
 
 
-<p> COURSE LAYOUT </p>
+<p> TOPIC LAYOUT </p>
 {{page}}
 <div class="row">
-
 
 {% if page.previous %}
 <div class="content-continaer col-md-9">
@@ -33,7 +32,14 @@
 
   <div class="content-container col-md-9">
     {{ content }}
+{% for unit in page.units %}
+<p> Unit is <a href="{{site.baseurl}}/{{unit}}/">{{unit}}</a> </p>
+{% endfor %}
+
   </div>
+
+
+
   <div class="sidebar-container col-md-3">
     {% include sidebar.html %}
   </div>

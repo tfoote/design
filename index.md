@@ -14,7 +14,7 @@ Here is a list of courses available so far.
 
 
 {% for p in site.pages %}
-    {% if p.url contains 'articles/' %}
+    {% if p.url contains 'articles/' and p.layout == 'course' %}
 ----
 
 #### [{{ p.title }}]({{ site.baseurl }}{{ p.url }})
