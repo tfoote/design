@@ -17,3 +17,6 @@ exclude:
  - Gemfile
  - LICENSE
  - README.md
+
+gems:
+ - jekyll-sitemap
