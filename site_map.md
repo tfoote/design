@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ROS Courses
+title: Site Map
 ---
 
 # ROS Courses
@@ -14,7 +14,7 @@ Here is a list of courses available so far.
 
 
 {% for p in site.pages %}
-    {% if p.url contains 'articles/' and p.layout == 'course' %}
+    {% if p.layout == 'course' %}
 ----
 
 #### [{{ p.title }}]({{ site.baseurl }}{{ p.url }})
@@ -30,7 +30,7 @@ Here is a list of units available so far.
 
 
 {% for p in site.pages %}
-    {% if p.url contains 'articles/' and p.layout == 'unit' %}
+    {% if p.layout == 'unit' %}
 ----
 
 #### [{{ p.title }}]({{ site.baseurl }}{{ p.url }})
@@ -48,7 +48,7 @@ Here is a list of lessons available so far.
 
 
 {% for p in site.pages %}
-    {% if p.url contains 'articles/' and p.layout == 'lesson' %}
+    {% if p.layout == 'lesson' %}
 ----
 
 #### [{{ p.title }}]({{ site.baseurl }}{{ p.url }})
@@ -64,7 +64,7 @@ Here is a list of tutorials available so far.
 
 
 {% for p in site.pages %}
-    {% if p.url contains 'articles/' and p.layout == 'tutorial' %}
+    {% if p.layout == 'tutorial' %}
 ----
 
 #### [{{ p.title }}]({{ site.baseurl }}{{ p.url }})
@@ -80,7 +80,7 @@ Here is a list of challenges available so far.
 
 
 {% for p in site.pages %}
-    {% if p.url contains 'articles/' and p.layout == 'challenge' %}
+    {% if p.layout == 'challenge' %}
 ----
 
 #### [{{ p.title }}]({{ site.baseurl }}{{ p.url }})
