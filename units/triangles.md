@@ -5,7 +5,7 @@ abstract:
   Basic geometry of triangles
 tags: [TurtleBot, Kobuki]
 
-units: [right_triangles, equilateral_triangesl]
+topics: [right_triangles, equilateral_triangesl]
 
 ---
 
