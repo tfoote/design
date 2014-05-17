@@ -35,13 +35,20 @@ g{% include header.html %}
 {% for topic in page.topics %}
   {% assign topic_found = false %}
   {% for p in site.pages %}
-      {% if (p.layout == 'lesson' or p.layout == 'tutorial' or p.layout == 'challenge') %}
-         {% if p.reference_id == topic %}
-<li> <a href="{{site.baseurl}}{{p.url}}">{{p.title}}</a><br>{{p.abstract}}</li>
-         {% assign topic_found = true %}
-         {% endif %}
+    {% if p.reference_id == topic %}
+      {% if p.layout == 'lesson' %}
+        {% capture flag %}Lesson: {%endcapture%}
+      {% elsif p.layout == 'tutorial' %}
+        {% capture flag %}Tutorial: {%endcapture%}
+      {% elsif p.layout == 'challenge' %}
+        {% capture flag %}Challenge: {%endcapture%}
+      {% else %}
+        {% capture flag %}Unknown type: {%endcapture%}
       {% endif %}
-    {% endfor %}
+<li>{{flag}}<a href="{{site.baseurl}}{{p.url}}">{{p.title}}</a><br>{{p.abstract}}</li>
+      {% assign topic_found = true %}
+    {% endif %}
+  {% endfor %}
   {% if topic_found == false%}
 <li> {{topic}} [Topic not found]</li>
   {% endif %}
