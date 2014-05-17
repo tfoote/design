@@ -1,0 +1,43 @@
+{% include header.html %}
+
+
+<p> Tutorial LAYOUT </p>
+{{page}}
+
+<div class="row">
+
+
+{% if page.previous %}
+<div class="content-continaer col-md-9">
+  <h2> Previous Courses </h2
+  <ul>{% for prev in page.previous %}
+    <li> <a href="{{site.baseurl}}/{{prev}}">Previous Course {{prev}}</a></li>
+       {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+{% if page.requirements %}
+<div class="content-continaer col-md-9">
+  <h2> Required Skills </h2>
+{% for prereq in page.required_skills %}
+  Skill: {{prereq}}<br>
+  Provided by:
+  <ul>
+  {% for p in site.pages %}
+    {% for s in p.provided_skills %}{% if s == prereq %} <li> <a href="{{site.baseurl}}{{p.url}}">{{p.title}}</a></li>
+{% endif %}{% endfor %}{% endfor %}{% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+
+  <div class="content-container col-md-9">
+    {{ content }}
+  </div>
+  <div class="sidebar-container col-md-3">
+    {% include sidebar.html %}
+  </div>
+</div>
+
+{% include footer.html %}
