@@ -1,6 +1,7 @@
 ---
 layout: tutorial
 title: Right Triangles
+reference_id: right_triangles
 abstract:
   Basic geometry of triangles
 tags: [TurtleBot, Kobuki]

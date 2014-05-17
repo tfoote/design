@@ -1,6 +1,7 @@
 ---
 layout: lesson
 title: Equilateral Triangles
+reference_id: equilateral_triangles
 abstract:
   Basic geometry of equlateral triangles
 tags: [TurtleBot, Kobuki]

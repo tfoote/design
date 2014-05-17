@@ -1,6 +1,7 @@
 ---
 layout: challenge
 title: Draw multiple Triangles
+reference_id: draw_triangles
 abstract:
   Basic geometry of equlateral triangles
 tags: [TurtleBot, Kobuki]

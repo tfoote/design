@@ -1,8 +1,5 @@
 g{% include header.html %}
 
-
-<p> Unit LAYOUT </p>
-{{page}}
 <div class="row">
 
 {% if page.previous %}
@@ -32,9 +29,25 @@ g{% include header.html %}
 
   <div class="content-container col-md-9">
     {{ content }}
-{% for unit in page.units %}
-<p> Unit is <a href="{{site.baseurl}}/{{unit}}/">{{unit}}</a> </p>
+
+<h2> Topics in {{page.title}} Unit</h2>
+<ul>
+{% for topic in page.topics %}
+  {% assign topic_found = false %}
+  {% for p in site.pages %}
+      {% if (p.layout == 'lesson' or p.layout == 'tutorial' or p.layout == 'challenge') %}
+         {% if p.reference_id == topic %}
+<li> <a href="{{site.baseurl}}{{p.url}}">{{p.title}}</a><br>{{p.abstract}}</li>
+         {% assign topic_found = true %}
+         {% endif %}
+      {% endif %}
+    {% endfor %}
+  {% if topic_found == false%}
+<li> {{topic}} [Topic not found]</li>
+  {% endif %}
 {% endfor %}
+  </ul>
+
 
   </div>
 

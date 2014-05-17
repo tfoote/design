@@ -3,9 +3,10 @@ layout: course
 title: Geometry
 abstract:
   Basic geometry
+reference_id: geometry
 tags: [TurtleBot, Kobuki]
 skills: [reading]
-units: [triangles]
+units: [lines, triangles, squares]
 ---
 
 

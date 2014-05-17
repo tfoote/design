@@ -1,11 +1,12 @@
 ---
 layout: unit
+reference_id: triangles
 title: Triangles
 abstract:
   Basic geometry of triangles
 tags: [TurtleBot, Kobuki]
 
-topics: [right_triangles, equilateral_triangesl]
+topics: [right_triangles, equilateral_triangles, draw_triangles]
 
 ---
 

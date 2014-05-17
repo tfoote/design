@@ -1,8 +1,5 @@
 {% include header.html %}
 
-
-<p> COURSE LAYOUT </p>
-{{page}}
 <div class="row">
 
 
@@ -15,6 +12,9 @@
   </ul>
 </div>
 {% endif %}
+
+
+
 
 {% if page.requirements %}
 <div class="content-continaer col-md-9">
@@ -33,6 +33,23 @@
 
   <div class="content-container col-md-9">
     {{ content }}
+
+<h2> Units in {{page.title}} Course</h2>
+<ul>
+{% for unit in page.units %}
+  {% assign unit_found = false %}
+  {% for p in site.pages %}  
+      {% if p.layout == 'unit' and p.url contains unit%}
+<li> <a href="{{site.baseurl}}{{p.url}}">{{p.title}}</a><br>{{p.abstract}}</li>
+       {% assign unit_found = true %}
+       {% endif %}
+    {% endfor %}
+  {% if unit_found == false%}
+<li> {{unit}} <br>[Unit not found]</li>
+  {% endif %}
+{% endfor %}
+  </ul>
+
   </div>
   <div class="sidebar-container col-md-3">
     {% include sidebar.html %}
