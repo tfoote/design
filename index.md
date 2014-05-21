@@ -24,6 +24,6 @@ Here is a list of courses available so far.
 {% endfor %}
 ----
 
-
+testing this
 
 For TurtleBot Courses see: [here](turtlebot)
