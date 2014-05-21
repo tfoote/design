@@ -10,7 +10,7 @@ The repository/website is meant to be a point around which users can collaborate
 You can run the site locally by running this command in this repository:
 
 ```
-jekyll serve --watch --baseurl=''
+jekyll --server --base-url='' --auto
 ```
 
 And navgiating to your browser to:
