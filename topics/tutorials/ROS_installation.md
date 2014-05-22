@@ -15,7 +15,7 @@ required_skills: []
 * This will become a table of contents (this text will be scraped).
 {:toc}
 
-# {{ page.title }}
+# Installing ROS Hydro
 
 These instructions are intended for users with a netbook pre-installed with Ubuntu Precise
 
