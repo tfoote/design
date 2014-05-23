@@ -35,7 +35,7 @@
     {{ content }}
 
 <h2> Units in {{page.title}} Course</h2>
-<ul>
+<ol>
 {% for unit in page.units %}
   {% assign unit_found = false %}
   {% for p in site.pages %}  
@@ -48,7 +48,7 @@
 <li> {{unit}} <br>[Unit not found]</li>
   {% endif %}
 {% endfor %}
-  </ul>
+  </ol>
 
   </div>
   <div class="sidebar-container col-md-3">
