@@ -31,7 +31,7 @@ g{% include header.html %}
     {{ content }}
 
 <h2> Topics in {{page.title}} Unit</h2>
-<ul>
+<ol>
 {% for topic in page.topics %}
   {% assign topic_found = false %}
   {% for p in site.pages %}
@@ -53,7 +53,7 @@ g{% include header.html %}
 <li> {{topic}} [Topic not found]</li>
   {% endif %}
 {% endfor %}
-  </ul>
+</ol>
 
 
   </div>
