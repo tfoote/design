@@ -23,8 +23,10 @@ Type `echo Hello world!`, Done.
 
 
 ### TurtleBot Bringup
-	How to start the TurtleBot software.
+How to start the TurtleBot software. TESTING
+
 ### TurtleBot Care and Feeding
-	This tutorials explains how to charge and maintain your TurtleBot.
+This tutorials explains how to charge and maintain your TurtleBot.
+
 ### 3D Visualisation
-	Visualising 3d and camera data from the kinect/asus. 
+Visualising 3d and camera data from the kinect/asus. 
