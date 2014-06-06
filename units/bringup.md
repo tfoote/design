@@ -6,11 +6,9 @@ abstract: How to start the TurtleBot software
   
 tags: [TurtleBot, bringup]
 
-topics: [turtlebot-bringup, turtlebot-care-and-feeding, 3D-visualisaton]
+topics: [turtlebot-bringup, turtlebot-care-and-feeding, 3D-visualisation]
 
 ---
-
-
 
 * This will become a table of contents (this text will be scraped).
 {:toc}

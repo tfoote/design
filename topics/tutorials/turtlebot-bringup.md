@@ -7,10 +7,10 @@ abstract:
 tags: [Installation, ROS]
 
 provided skills: [bringup]
-required_skills: []
+required_skills: [install, network configuration]
 ---
 
-
+# {{ page.title }}
 
 * This will become a table of contents (this text will be scraped).
 {:toc}
@@ -82,7 +82,7 @@ This assumes you have finished the workstation install and also the network conf
 
 #### Dashboard
 
-######*To see what is happening on the TurtleBot please keep the turtlebot_dashboard up as much as possible when running the robot.*
+*To see what is happening on the TurtleBot please keep the turtlebot_dashboard up as much as possible when running the robot.*
 
 If you have a Turtlebot 2 based on the Kobuki base you should launch the Kobuki dashboard.
 
