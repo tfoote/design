@@ -13,6 +13,12 @@ You can run the site locally by running this command in this repository:
 jekyll --server --base-url='' --auto
 ```
 
+Newer jekyll versions
+
+```
+jekyll serve --baseurl='' -w
+```
+
 And navgiating to your browser to:
 
 [http://localhost:4000/](http://localhost:4000/)
