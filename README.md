@@ -10,19 +10,23 @@ The repository/website is meant to be a point around which users can collaborate
 You can run the site locally by running this command in this repository:
 
 ```
-jekyll --server --base-url='' --auto
+./deploy_jekyll.sh
 ```
 
-Newer jekyll versions
+## Requirements for development
 
-```
-jekyll serve --baseurl='' -w
-```
+For development and testing it requires docker to be installed. (ubuntu package docker.io)
 
 And navgiating to your browser to:
 
 [http://localhost:4000/](http://localhost:4000/)
 
+
+## Requirements for deployment
+
+For deploying locally, you need jekyll jekyll-sitemap pygments and nodejs installed
+
+Then use jekyll command directly. 
 
 ## Site Setup
 
