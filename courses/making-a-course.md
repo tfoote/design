@@ -2,11 +2,11 @@
 layout: course
 title: Making a Course
 abstract:
- Learn how to upload material this site
-reference_id: making a course
-tags: [course, how to]
-skills: [uploding materia]
-units: []
+ Write abstract here
+reference_id: making-a-course
+tags: [course, how to, formatting]
+skills: [make a course]
+units: [introduction, templates, uploading-material]
 ---
 
 
@@ -16,11 +16,9 @@ units: []
 
 # {{ page.title }}
 
-In this course, you will learn how to makeyour own course on this site.  Follow through these follo* wing units to lear:
+In this course, you will learn how to makeyour own course on this site.  Follow through these next units to learn:
 
-* The general format used on this site
-* 
-
-## 1. Bringup
-
+* The general purpose and format of this site
+* The templates used
+* Using markdown and uploading material
 
