@@ -12,11 +12,11 @@ topics: [right_triangles, equilateral_triangles, draw_triangles]
 
 
 
-* This will become a table of contents (this text will be scraped).
-{:toc}
+<!--* This will become a table of contents (this text will be scraped).
+{:toc}-->
 
 # {{ page.title }}
 
-## How to hello world
+## What to expect
 
-Type `echo Hello world!`, Done.
+In this unit we will teach you about different types of Triangles. 

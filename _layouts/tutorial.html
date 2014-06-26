@@ -1,9 +1,6 @@
 {% include header.html %}
 
 
-<p> Tutorial LAYOUT </p>
-{{page}}
-
 <div class="row">
 
 
@@ -37,6 +34,7 @@
   </div>
   <div class="sidebar-container col-md-3">
     {% include sidebar.html %}
+    {% include topic_summary.html reference_id=page.reference_id %}
   </div>
 </div>
 

@@ -1,0 +1,12 @@
+
+
+<h4>This topic found in the following units:</h4>
+<ul>
+{% for p in site.pages %}
+{% if p.layout == 'unit' %}
+{% if p.topics contains include.reference_id %}
+  <li><a href="{{site.baseurl}}{{p.url}}">{{p.title}}</a><br>{{p.abstract}}</li>
+{% endif %}
+{% endif %}
+{% endfor %}
+</ul>

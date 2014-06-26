@@ -1,0 +1,12 @@
+
+
+<h4>This unit found in courses:</h4>
+<ul>
+{% for p in site.pages %}
+{% if p.layout == 'course' %}
+{% if p.units contains include.reference_id %}
+  <li><a href="{{site.baseurl}}{{p.url}}">{{p.title}}</a><br>{{p.abstract}}</li>
+{% endif %}
+{% endif %}
+{% endfor %}
+</ul>
