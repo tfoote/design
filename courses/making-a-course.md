@@ -2,11 +2,11 @@
 layout: course
 title: Making a Course
 abstract:
- Write abstract here
+ Learn how to contribute.
 reference_id: making-a-course
 tags: [course, how to, formatting]
 skills: [make a course]
-units: [introduction, templates, uploading-material]
+units: [introduction, uploading-material]
 ---
 
 
@@ -16,7 +16,7 @@ units: [introduction, templates, uploading-material]
 
 # {{ page.title }}
 
-In this course, you will learn how to makeyour own course on this site.  Follow through these next units to learn:
+In this course, you will learn how to make your own course on this site.  Follow through these next units to learn:
 
 * The general purpose and format of this site
 * The templates used

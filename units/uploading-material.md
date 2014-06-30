@@ -2,11 +2,11 @@
 layout: unit
 title: Uploading Material
 abstract:
- Write abstract here
+ Learn how to contribute and upload material.
 reference_id: uploading-material
-tags: [tags, go, here]
-skills: [skills, go, here]
-topics: [topics, go, here]
+tags: [contribute, upload, material, content, template, elements]
+skills: [contribute, templates, upload]
+topics: [templates]
 ---
 
 
