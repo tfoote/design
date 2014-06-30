@@ -34,6 +34,13 @@ content:  [..~/Desktop/OPW/design/topics/lessons/course-template.md]
 
 <<[templates/course-template.md]
 
+
+
+
+Clicking this number[^fn-sample_footnote] will lead you to a footnote.
+
+[^fn-sample_footnote]: Handy! Now click the return link to go back.
+
 ##Unit Template
 
 ##Lesson Template

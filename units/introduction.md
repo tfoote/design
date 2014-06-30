@@ -18,11 +18,36 @@ topics: [course-elements]
 
 ##About this Site
 
-Hello! Welcome to our site!  The purpose of th to make it easier to teach ROS using TurtleBot.  Since then we have worked on narrowing down the focus of the project, reaching out to the online robotics education community, developing a schedule for the project, and developed a format for organizing and collaborating on course material.
+Hello! Welcome to [NAME OF SITE]!
 
-Before delving further into what we've been working on for the past few weeks, I will start by describing what we plan to accomplish this summer.  The goal for this project is to produce a website with some example robotics courses and a way for educators to submit additional courses/course material relatively easily.  In addition, there should be a means to index and search for courses and course material based on subject, skills taught, pre-requisites, and any other "tags" associated with the content.
+The purpose of this site is to provide an online space where educators can collaborate on free material for teaching robotics (sort of like a course/lesson/activity database).  Material can range anywhere from individual activities and informational content to entire courses.  We want teaching and learning robotics to be accessible to all!
 
-Git online repository with the infrastructure required for educators to collaboratively build online courses and their relevant material.  The courses will be composed of units, which in turn contain lessons, tutorials, and challenges.  Each element (courses, units, lessons, tutorials, and challenges) will have a header containing a reference ID and meta-data that both gives users a sense of the content and acts as a means of searching for course material in the repository. Units and the content in the units can be cross-referenced between units as well as courses so that course material can be recycled if appropriate. Course material can include anything from material outlines to power point presentation files to example code. 
+This project began with the general goal of making it easier to teach Robotics Operating System (ROS) using Willow Garage’s[LINK] TurtleBot[LINK].  We started brainstorming ways to facilitate and consolidate collaboration within the already-existent ROS education community.  This led us to develop a website using a Git web repository as the host, a collaboration platform many open source projects already use.  Once we got the ball rolling, we realized that the collaborative nature of the project enabled it to extend beyond just teaching ROS with TurtleBot; if anyone can upload material related to TurtleBot, they can also contribute any material relevant to teaching and learning robotics.  Therefore, the general purpose of this site is providing free robotics education resources relevant to any and all areas of robotics.
 
-The idea is to collaboratively create online robotics courses that educators can both edit and pull from in order to use with their own students. 
+![TurtleBot Img](~/mariana/Desktop/turtlebot_2_lg.png)
+
+http://example.com
+
+Since no two teachers have the same teaching style, we needed to prepare for material coming into the site in all manner of shapes and sizes.  We decided to address this issue by establishing a standard format to organize material on the site which we hope will provide common grounds upon which collaboration can occur.  This format enables incoming material to be categorized, which will in turn reduce redundancy and will enable a means for users to easily navigate through material on the site.  More information on how to use this format can be found in the course “Making a Course.”  However, the fundamental organization of the site can be outlined with the following example of the hierarchical structure used:
+
+    Course
+        Unit
+            Lesson
+            Tutorial
+            Lesson
+            Tutorial
+            Challenge
+        Unit
+            Lesson
+            Lesson
+            Tutorial
+            Challenge
+            Challenge
+        Unit
+            Tutorial
+            Challenge
+
+In this manner, contributors to the site can decide which category/categories to place their material in.  The courses will be composed of units, which in turn contain lessons, tutorials, and challenges.  Each element (courses, units, lessons, tutorials, and challenges) will have a header containing a reference ID and meta-data that both gives users a sense of the content and acts as a means of searching for course material in the repository. Units and the content in the units can be cross-referenced between units as well as courses so that course material can be recycled if appropriate. 
+
+With all of this, the hope is to collaboratively create online robotics courses that educators can both edit and pull from in order to use with their own students.
 
