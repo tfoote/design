@@ -31,21 +31,18 @@ This project began with the general goal of making it easier to teach Robotics O
   <img src="http://cdn2.ubergizmo.com/wp-content/uploads/2011/04/TurtleBot-Front-640w.png"/>
 </p>
 
-<p align="center">
-  <img src="./units/introduction/favicon.png" />
-</p>
 
 <p align="center">
-  <img src="favicon.png" />
+  <img src="{{site.baseurl}}/img/fork.png"/>
 </p>
 
 
-```javascript
+
+{% highlight javascript %}
 if (isAwesome){
   return true
 }
-```
-
+{% endhighlight %}
 
 Since no two teachers have the same teaching style, we needed to prepare for material coming into the site in all manner of shapes and sizes.  We decided to address this issue by establishing a standard format to organize material on the site which we hope will provide common grounds upon which collaboration can occur.  This format enables incoming material to be categorized, which will in turn reduce redundancy and will enable a means for users to easily navigate through material on the site.  More information on how to use this format can be found in the course “Making a Course.”  However, the fundamental organization of the site can be outlined with the following example of the hierarchical structure used:
 
