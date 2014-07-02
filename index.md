@@ -9,6 +9,10 @@ title: ROS Courses
 
 The purpose of this site is to provide a repository for educational material concerning ROS and general robotics (sort of like a course/lesson/activity database).  It is our goal is to collaboratively create online robotics courses that educators can both edit and pull from in order to use with their own students.  Contributors can provide material ranging anywhere from individual activities and informational content to entire courses.  We want teaching and learning robotics to be accessible to all!
 
+<<<<<<< HEAD
+=======
+This site serves as a repository of courses for teaching ROS and general robotics.
+>>>>>>> f4517b25f983fdd39273257083085527f3343a15
 
 
 # Courses
