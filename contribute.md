@@ -4,6 +4,87 @@ title: Contribute
 ---
 
 # Contribute
+  
+##1. Fork & Pull the Repository
+
+In order to contribute, the first step is to set up a local copy of the repository at https://tfoote.github.io/design/.  
+
+All of the pages on this website have a sidebar on the right hand side with links to view the source of this page on Github.com and to edit this page in Github.com's on-line editor. In addition to these buttons, all pull requests (open and closed) which involve this file in some way are also listed. Please review the previous pull requests before proposing a change to prevent duplicates and to prevent rehashing issues already addressed.
+
+The "Edit in Github" button will bring you to an on-line editor where you can make simple changes. Github will automatically fork this repository to your github user account, save your on-line changes to a branch there, and open a pull request against our repository on your behalf. This allows us to review and discuss changes to each page before accepting the pull request.
+
+### Manually Making a Pull Request
+
+For more extensive changes or for submitting a new article, you will probably want to fork this repository and clone it to your local machine, edit it there, and then propose a pull request.
+
+####**Forking this Repository**
+
+First make sure you don't already have a fork of this repository at:
+
+    https://github.com/<your username>/design
+
+If you do not, then browse to this [repository](https://github.com/ros2/design) and click on the "Fork" button:
+
+<img src="{{ site.baseurl }}/img/fork.png"/>
+
+Github.com will now go off and create a fork off this repository onto your user account. Then you can clone your fork of the repository by running this command:
+
+    git clone https://github.com/<your username>/design.git
+
+This will clone this repository onto your machine into a folder called `design`. You can edit these files in this folder using your favorite editor.
+
+For more instructions on how to fork and clone a repository, see these instructions:
+
+https://help.github.com/articles/fork-a-repo  
+https://help.github.com/articles/using-pull-requests
+
+
+##2. Add or Modify Material
+
+Once you have your own copy of the “design” repository, it’s time to add your contribution to it.  This can be done in one of two ways:
+
+* Modifying existing material **_or_**
+* Adding new material
+
+
+####**Modifying Existing Material**
+
+If you are **modifying existing material**, navigate to the appropriate folder (courses, units, or topics) to find the file you want to edit.  Note that the files are written in Markdown.  For information on relevant Markdown syntax used in this site, see section on **Markdown Syntax**.
+
+##3. Adding New Material
+
+If you are **adding new material** to the site, there are some things you should consider:
+
+* How does your material interface with our format (the “hierarchy” of content established on this site)?
+* How will you organize your material using this hierarchy?
+* How will you present your material given the tools available in markdown?
+
+Once you’ve considered these questions, it’s time to start adding your own material.  This is done by going into design/topics/lessons/ and finding the appropriate templates for your new material. 
+
+1. Open the template file for the type of content you wish to upload and **_IMMEDIATELY SAVE AS_**, choosing a clear name describing the content in the file. Make sure that the name isn't already used elsewhere. If you wish to use more than one word, represent spaces with a dash: **this-is-an-example.md**
+
+2. At the top of each template, you'll need to fill in the header with the appropriate:
+
+* Title
+* Abstract
+* Reference ID (The name of the markdown file you are edditing)
+
+##4. Testing and working remotely
+
+* jekyll
+
+##5. Markdown Syntax - How to add files and format content
+
+
+
+
+
+
+
+
+
+
+----
 
 There are many ways you can contribute to the ROS 2.0 design effort. The most important of which is probably to review the list of articles posted on the [main page]({{ site.baseurl }}/) of the website and familiarize yourself with the discussions on an issue before getting involved. This will help keep everyone on the same page and prevent having to discuss things multiple times.
 

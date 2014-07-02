@@ -6,7 +6,7 @@ abstract:
 reference_id: how-to-contribute
 tags: [course, how to, formatting]
 skills: [make a course]
-units: [introduction, uploading-material]
+units: [introduction, contributing-material]
 ---
 
 
@@ -14,13 +14,20 @@ units: [introduction, uploading-material]
 * This will become a table of contents (this text will be scraped).
 {:toc}
 
-# {{ page.title }}
-
 In this course, you will learn how to contribute to this site.  Follow through these next units to learn:
 
 * The general purpose and format of this site
 * The templates used
 * Using markdown and uploading material
+
+# {{ page.title }}
+
+
+###Introduction
+
+
+
+
 
 Before contributing, it is first important to understand how material on this site is organized.  Since no two teachers have the same teaching style, we needed to prepare for material coming into the site in all manner of shapes and sizes.  We decided to address this issue by establishing a standard format to organize material on the site which we hope will provide common grounds upon which collaboration can occur.  This format enables incoming material to be categorized, which will in turn reduce redundancy and will enable a means for users to easily navigate through material on the site.
 
@@ -61,3 +68,7 @@ In addition, we have written guidelines for how to define these categories:
 **Challenge**:  This is the fun part.  Here is where educators can post material that get the student to apply and expand on the concepts covered.  Here is where you would find homework problems, problem sets, projects, open ended questions… etc.  The challenges will be labelled as either “recommended” or “extended.”
 
 All elements (courses, units, lessons, tutorials, and challenges) will be indexed and will reference the material they belong with.  In addition, units and the elements they contain can also be cross-referenced if material is applicable to more than one course and/or unit.  But we’ll talk about indexing and referencing later on.
+
+###Next Steps
+
+To learn more about this site, the story behind the project and a more detailed description of how the site is organized, go to the **Introduction** section. Otherwise, continue on to **Contributing Material**.

@@ -46,22 +46,23 @@ if (isAwesome){
 
 Since no two teachers have the same teaching style, we needed to prepare for material coming into the site in all manner of shapes and sizes.  We decided to address this issue by establishing a standard format to organize material on the site which we hope will provide common grounds upon which collaboration can occur.  This format enables incoming material to be categorized, which will in turn reduce redundancy and will enable a means for users to easily navigate through material on the site.  More information on how to use this format can be found in the course “Making a Course.”  However, the fundamental organization of the site can be outlined with the following example of the hierarchical structure used:
 
-    Course
-        Unit
-            Lesson
-            Tutorial
-            Lesson
-            Tutorial
-            Challenge
-        Unit
-            Lesson
-            Lesson
-            Tutorial
-            Challenge
-            Challenge
-        Unit
-            Tutorial
-            Challenge
+**Course**
+
+* Unit
+   * Lessons
+   * Tutorial
+   * Lesson
+   * Tutorial
+   * Challenge
+* Unit
+   * Lesson
+   * Lesson
+   * Tutorial
+   * Challenge
+   * Challenge
+* Unit
+   * Tutorial
+   * Challenge
 
 In this manner, contributors to the site can decide which category/categories to place their material in.  The courses will be composed of units, which in turn contain lessons, tutorials, and challenges.  Each element (courses, units, lessons, tutorials, and challenges) will have a header containing a reference ID and meta-data that both gives users a sense of the content and acts as a means of searching for course material in the repository. Units and the content in the units can be cross-referenced between units as well as courses so that course material can be recycled if appropriate. 
 
