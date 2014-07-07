@@ -183,11 +183,24 @@ Github.com will now go off and create a fork off this repository onto your user 
 
 This will clone this repository onto your machine into a folder called `design`. You can edit these files in this folder using your favorite editor.
 
-### Using Jekyll to Preview Changes
+### Using Jekyll locally to Preview Changes
 
-If you change is more extensive or you want to see what your changes will look like on the live site, you can do so by running Jekyll locally. First install Jekyll for your system:
+If you change is more extensive or you want to see what your changes will look like on the live site, you can do so by running Jekyll locally. We recommend using docker to isolate the installation from your local machine. 
+
+#### Simple testing using docker
+
+If you don't want to install the version of jekyll required you can just use the script deploy_jekyll.sh for quick deployment. 
+
+    sudo apt-get install docker
+    ./deploy_jekyll.sh
+
+#### Full installation instructions
+
+If you do not want to use docker as instructed above this will install jekyll on your local machine. The docker instance does this for you inside the container. 
 
 [http://jekyllrb.com/docs/installation/](http://jekyllrb.com/docs/installation/)
+
+    sudo gem install jekyll jekyll-sitemap
 
 Once you have Jekyll installed you should be able to run this command:
 
@@ -196,6 +209,7 @@ Once you have Jekyll installed you should be able to run this command:
 
 
 The `jekyll server` command will start a web server which you can access at `http://localhost:4000` locally. The `--watch` option will cause the jekyll web server to regenerate pages which are changed each time they are modified. This allows you to make quick edits to the documents and then refresh the web page to get the changes immediately. The `--baseurl=''` option sets the `baseurl` variable for the site's global config, allowing static files like the `css` and `js` files work on your local host.
+
 
 ### Submitting a Pull Request
 
