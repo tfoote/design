@@ -67,7 +67,13 @@ Once you’ve considered these questions, it’s time to start adding your own m
 
 * Title
 * Abstract
-* Reference ID (The name of the markdown file you are edditing)
+* Reference ID (The name of the markdown file you are edditing: this-is-an-example)
+* tags (key words by which the file can be searched for)
+* skills (what does the user get from the file? similar to tags)
+* Units (if "course") or Topics (if "unit") - same format as reference ID: give the redererence IDs of the files you are citing
+* previous (for topics only) - what previous skills should the user cover?
+
+3. Once you have the header set up, go ahead and fill in the template with your material! For any questions regarding syntax, refer to the "Markdown Syntax" section on this page.
 
 ##4. Testing and working remotely
 
