@@ -154,11 +154,9 @@ When writing blocks of code, use the following format:
 
 {% raw %}
 
-	{% raw %}
 
-		code here
+	code here
 
-	{% endraw %}
 
 {% endraw %}
 
