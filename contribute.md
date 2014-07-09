@@ -84,6 +84,9 @@ Once you’ve considered these questions, it’s time to start adding your own m
 
 In your local copy of the repository, navigate to design/topics/lessons/ and find the appropriate templates for your new material. 
 
+<img src="{{ site.baseurl }}/img/coursetemplate.png"/>
+
+
 Open the template file for the type of content you wish to upload and **_IMMEDIATELY SAVE AS_**, choosing a clear name that describes the content in the file. Make sure that the name isn't already used elsewhere (including in another category). If you wish to use more than one word, represent spaces with a dash: **this-is-an-example.md**
 
 ####2. **Fill in Header**
@@ -145,25 +148,13 @@ The `jekyll server` command will start a web server which you can access at [htt
 
 #Markdown Syntax - How to add files and format content
 
-For help with Markdown syntax, refer to this link: [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+To get started with Markdown syntax, refer to this link: [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-
-###Blocks of Code
-
-When writing blocks of code, use the following format:
-
-{% raw %}
-
-
-	code here
-
-
-{% endraw %}
+Below we'll mention additional Markdown syntax relevant to this site.
 
 ###Syntax Highlighting in Code Blocks
 
 Use the following format in order to obtain appropriate syntax when writing code:
-
 
 {% raw %}
 
@@ -189,5 +180,24 @@ alert(s);
 {% highlight python %} 
 s = "Python syntax highlighting" 
 print s 
-{% endhighlight %}
+{% endhighlight %}  
+
+  
+###Other Markdown Tips
+
+
+####**Footnotes**
+
+For footnotes, use this format:
+
+	Clicking this number[^fn-sample_footnote] will lead you to a footnote.
+
+	[^fn-sample_footnote]: Handy! Now click the return link to go back.
+
+
+Results: 
+
+Clicking this number[^fn-sample_footnote] will lead you to a footnote.
+
+[^fn-sample_footnote]: Handy! Now click the return link to go back.
 
