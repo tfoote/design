@@ -120,6 +120,8 @@ Then, before each work session, navigate in your terminal to your local copy of 
 
     ./deploy_jekyll.sh
 
+You will be prompter for your root password.
+
 Now, you can navigate to [http://0.0.0.0:4000](http://0.0.0.0:4000) in your browser and view the changes as you make them (if you do not see changes in the browser, refresh the page).
 
 
@@ -143,7 +145,51 @@ The `jekyll server` command will start a web server which you can access at [htt
 
 #Markdown Syntax - How to add files and format content
 
+For help with Markdown syntax, refer to this link: [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 
+###Blocks of Code
 
+When writing blocks of code, use the following format:
+
+{% raw %}
+
+	{% raw %}
+
+		code here
+
+	{% endraw %}
+
+{% endraw %}
+
+###Syntax Highlighting in Code Blocks
+
+Use the following format in order to obtain appropriate syntax when writing code:
+
+
+{% raw %}
+
+	{% highlight javascript %}  
+	var s = "JavaScript syntax highlighting";  
+	alert(s);  
+	{% endhighlight %}
+
+	{% highlight python %}  
+	s = "Python syntax highlighting"  
+	print s  
+	{% endhighlight %}
+
+{% endraw %}
+
+Results:
+
+{% highlight javascript %}
+var s = "JavaScript syntax highlighting";
+alert(s);
+{% endhighlight %}
+
+{% highlight python %} 
+s = "Python syntax highlighting" 
+print s 
+{% endhighlight %}
 
