@@ -6,7 +6,7 @@ abstract:
 reference_id: geometry
 tags: [TurtleBot, Kobuki]
 skills: [reading]
-units: [lines, triangles, squares]
+units: [lines, triangles, trigonometry]
 ---
 
 
