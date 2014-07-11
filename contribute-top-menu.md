@@ -72,6 +72,8 @@ If you are **modifying existing material**, navigate to the appropriate folder (
 
 ##Adding New Material
 
+**_BEFORE ADDING NEW MATERIAL_**: Navigate to **Site Map** and scroll through all the courses, units, and topics to see what is already up on the site.  If you find anything related to the content you wish to contribute, please look at what's there first. This is to minimize redundancy. If appropriate, you may always add to material that is up on the site.
+
 If you are **adding new material** to the site, there are some things you should consider:
 
 * How does your material interface with our format (the “hierarchy” of content established on this site)?
@@ -82,12 +84,12 @@ Once you’ve considered these questions, it’s time to start adding your own m
 
 ####1. **Save Templates**
 
-In your local copy of the repository, navigate to design/topics/lessons/ and find the appropriate templates for your new material. 
+In your local copy of the repository, navigate to design/templates/ and find the appropriate templates for your new material. 
 
 <img src="{{ site.baseurl }}/img/coursetemplate.png"/>
 
 
-Open the template file for the type of content you wish to upload and **_IMMEDIATELY SAVE AS_**, choosing a clear name that describes the content in the file. Make sure that the name isn't already used elsewhere (including in another category). If you wish to use more than one word, represent spaces with a dash: **this-is-an-example.md**
+Open the template file for the type of content you wish to upload and **_IMMEDIATELY SAVE AS_**, choosing a clear name that describes the content in the file (usualy the title you will use). Make sure that the name isn't already used elsewhere (including in another category). If you wish to use more than one word, represent spaces with a dash: **this-is-an-example.md**
 
 ####2. **Fill in Header**
 
