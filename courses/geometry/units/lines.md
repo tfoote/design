@@ -3,16 +3,14 @@ layout: unit
 reference_id: lines
 title: Lines
 abstract:
-  Basics of Lines
+  Learn the basics of lines
 tags: [line, geometry]
 skills: [draw line]
-topics: [types_of_lines, how_to_draw_lines]
+topics: [types-of-lines, how-to-draw-lines]
 
 ---
-* This will become a table of contents (this text will be scraped).
-{:toc}
 
-# {{ page.title }}
+----
 
 In this course, you will learn all about lines.  This Course contains the following topics:
 

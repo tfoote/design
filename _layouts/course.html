@@ -31,10 +31,54 @@
 {% endif %}
 
 
-  <div class="content-container col-md-9">
-    {{ content }}
+<div class="content-container col-md-9">
+  <h1> {{ page.title }}</h1>
+  <ol>
+  <h4> {{ page.abstract }}</h4>
+  </ol>
 
-<h2> Units in {{page.title}} Course</h2>
+{% assign units_exist = false %}
+{% for unit in page.units %}
+  {% for p in site.pages %}  
+      {% if p.layout == 'unit' and p.url contains unit%}
+       {% assign units_exist = true %}
+       {% endif %}
+    {% endfor %}
+{% endfor %}
+{% if units_exist == true%}
+  <h3> Units:</h3>
+{% endif %}
+
+<ol>
+{% for unit in page.units %}
+  {% assign unit_found = false %}
+  {% for p in site.pages %}  
+      {% if p.layout == 'unit' and p.url contains unit%}
+<li> <a href="{{site.baseurl}}{{p.url}}">{{p.title}}</a><br>{{p.abstract}}</li>
+       {% assign unit_found = true %}
+       {% endif %}
+    {% endfor %}
+  {% if unit_found == false%}
+<li> {{unit}} <br>[Unit not found]</li>
+  {% endif %}
+{% endfor %}
+  </ol>
+
+  {{ content }}
+
+
+{% assign units_exist = false %}
+{% for unit in page.units %}
+  {% for p in site.pages %}  
+      {% if p.layout == 'unit' and p.url contains unit%}
+       {% assign units_exist = true %}
+       {% endif %}
+    {% endfor %}
+{% endfor %}
+{% if units_exist == true%}
+  <h2> Units in {{page.title}} Course</h2>
+{% endif %}
+
 <ol>
 {% for unit in page.units %}
   {% assign unit_found = false %}

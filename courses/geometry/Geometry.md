@@ -9,8 +9,7 @@ skills: [reading]
 units: [lines, triangles, trigonometry]
 ---
 
-
-# {{ page.title }}
+----
 
 ## What to expect
 

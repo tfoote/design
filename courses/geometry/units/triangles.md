@@ -6,16 +6,11 @@ abstract:
   Basic geometry of triangles
 tags: [TurtleBot, Kobuki]
 
-topics: [right_triangles, equilateral_triangles, draw_triangles]
+topics: [right-triangles, equilateral-triangles, draw-triangles]
 
 ---
 
-
-
-<!--* This will become a table of contents (this text will be scraped).
-{:toc}-->
-
-# {{ page.title }}
+----
 
 ## What to expect
 

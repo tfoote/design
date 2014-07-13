@@ -1,0 +1,16 @@
+<h3> Units:</h3>
+<ol>
+{% for unit in page.units %}
+  {% assign unit_found = false %}
+  {% for p in site.pages %}  
+      {% if p.layout == 'unit' and p.url contains unit%}
+<li> <a href="{{site.baseurl}}{{p.url}}">{{p.title}}</a><br>{{p.abstract}}</li>
+       {% assign unit_found = true %}
+       {% endif %}
+    {% endfor %}
+  {% if unit_found == false%}
+<li> {{unit}} <br>[Unit not found]</li>
+  {% endif %}
+{% endfor %}
+  </ol>
+
