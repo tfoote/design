@@ -31,5 +31,7 @@ _(For more details on how to contribute, see course "How to Contribute")_
 
 #Markdown Syntax - How to add files and format content
 
+**NOTE:** **_For a more detailed review of Markdown Syntax, see course "How to Contribute"_**
+
 {% include contribute/ms.md %}
 

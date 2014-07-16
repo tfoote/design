@@ -6,10 +6,22 @@ abstract:
 reference_id: markdown-syntax
 tags: [tags, go, here]
 skills: [skills, go, here]
-topics: [list of topics, go, here, as md files, this-is-an-example]
+topics: [syntax-highlighting, embedding-pictures, embedding-videos, other-md]
 ---
 
 ----
 
 
+In this unit you can learn necessary Markdown syntax relevant to contributing to the site. 
+
+* Markdown Basics
+* Code and Syntax Highlighting
+* Embedding Pictures
+* Embedding Videos
+* Other Markdown Tips
+
+---
+
 {% include contribute/ms.md %}
+
+---
