@@ -10,12 +10,9 @@ required_skills: []
 content:  []
 ---
 
-
-
 # {{ page.title }}
 
 ##Other Markdown Tips
-
 
 ####**Footnotes**
 
