@@ -6,7 +6,7 @@ abstract:
 reference_id: markdown-syntax
 tags: [tags, go, here]
 skills: [skills, go, here]
-topics: [syntax-highlighting, embedding-pictures, embedding-videos, embedding-google-docs, other-md]
+topics: [syntax-highlighting, embedding-pictures, youtube-videos, embedding-google-docs, other-md]
 ---
 
 ----
