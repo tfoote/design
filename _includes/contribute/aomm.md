@@ -43,4 +43,4 @@ At the top of each template, you'll need to fill in the header with the appropri
 
 ####3. **Add your Material**
 
-Once you have the header set up, go ahead and fill in the template with your material! For any questions regarding syntax, refer to the "Markdown Syntax" section on this page.
+Once you have the header set up, go ahead and fill in the template with your material! For any questions regarding syntax, refer to the "Markdown Syntax" section.

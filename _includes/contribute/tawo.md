@@ -5,7 +5,7 @@ If your change is more extensive, you wish to work offline, or you want to see w
 
 If you don't want to or can't install the version of jekyll required you can just use the script deploy_jekyll.sh for quick deployment (included in the **design** repository). 
 
-First install docker:
+First install docker by running this command in your terminal:
 
     sudo apt-get install docker
 
@@ -13,7 +13,11 @@ Then, before each work session, navigate in your terminal to your local copy of 
 
     ./deploy_jekyll.sh
 
-You will be prompter for your root password.
+You will be prompted for your root password.
+
+<p align="center">
+  <img src="{{site.baseurl}}/courses/how-to-contribute/root-pwd.png"/>
+</p>
 
 Now, you can navigate to [http://0.0.0.0:4000](http://0.0.0.0:4000) in your browser and view the changes as you make them (if you do not see changes in the browser, refresh the page).
 

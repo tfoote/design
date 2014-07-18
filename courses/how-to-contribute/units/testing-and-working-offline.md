@@ -2,11 +2,11 @@
 layout: unit
 title: Testing and Working Offline
 abstract:
- Write abstract here
+ Learn how to work offline and how to review new material before commiting it
 reference_id: testing-and-working-offline
-tags: [tags, go, here]
-skills: [skills, go, here]
-topics: [list of topics, go, here, as md files, this-is-an-example]
+tags: [offline]
+skills: []
+topics: []
 ---
 
 ----
