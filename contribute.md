@@ -9,7 +9,9 @@ All of the pages on this website have a sidebar on the right hand side with all 
 
 In addition, before contributing, please review the **About** section of this site to familiarize yourself with the purpose and organization of the content within.
 
-_(For more details on how to contribute, see course "How to Contribute")_
+_(For more details on how to contribute, see course [How to Contribute](https://tfoote.github.io/design/courses/how-to-contribute/how-to-contribute/))_
+
+
 
 ----
 
