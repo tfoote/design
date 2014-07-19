@@ -37,3 +37,5 @@ _(For more details on how to contribute, see course [How to Contribute](https://
 
 {% include contribute/ms.md %}
 
+**NOTE:** **_For a more detailed review of Markdown Syntax, see course "[How to Contribute](https://tfoote.github.io/design/courses/how-to-contribute/how-to-contribute/)"_**
+

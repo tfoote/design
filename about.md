@@ -19,9 +19,9 @@ This project began with the general mission of making it easier to teach [Roboti
 
 ###**What the Courses Look Like**
 
-Since no two teachers have the same teaching style, we needed to prepare for material coming into the site in all manner of shapes and sizes.  We decided to address this issue by establishing a standard format to organize material on the site which we hope will provide common grounds upon which collaboration can occur.  This format enables incoming material to be categorized, which will in turn reduce redundancy and will enable a means for users to easily navigate through material on the site.
+Since no two teachers have the same teaching style, we needed to prepare for material coming into the site in all manner of shapes and sizes.  At the same time, we needed to make sure that the site still enabled teachers to preserve their unique teaching styles.  We decided to address this issue by establishing a standard format to organize material on the site.  We hope this will provide common grounds upon which collaboration can occur while ensuring flexibility in course content and style.  This format enables incoming material to be categorized, which will in turn reduce redundancy and will enable a means for users to easily navigate through material on the site.
 
-The fundamental organization of the site is a hierarchical structure not too different from a class syllabus: course, unit, and topics (lessons, tutorials, challenges).  Here’s example of what a course might look like using this format:
+The fundamental organization of the site is a hierarchical structure not too different from a class syllabus: course, unit, and topics (lessons, tutorials, challenges).  Here are two examples of what a course might look like using this format:
 
 **Course**
 
@@ -40,6 +40,15 @@ The fundamental organization of the site is a hierarchical structure not too dif
 * Unit
    * Tutorial
    * Challenge
+
+Or
+
+**Course**
+
+* Unit
+* Unit
+* Unit
+   * challenge
 
 In addition, we have written guidelines for how to define these categories:
 
@@ -63,7 +72,7 @@ In addition, we have written guidelines for how to define these categories:
 
 ###**Organizing and Searching Through Material on this Site**
 
-All elements (courses, units, lessons, tutorials, and challenges) will be indexed and will reference the material they belong with.  In addition, units and the elements they contain can also be cross-referenced if material is applicable to more than one course and/or unit.  But we’ll talk about indexing and referencing later on.
+All elements (courses, units, lessons, tutorials, and challenges) will be indexed and will reference the material they belong with.  In addition, units and the elements they contain can also be cross-referenced if material is applicable to more than one course and/or unit.  For more detail about indexing and referencing, see course on "How to Contribute."
 
-In this manner, contributors to the site can decide which category/categories to place their material in.  The courses will be composed of units, which in turn contain lessons, tutorials, and challenges.  Each element (courses, units, lessons, tutorials, and challenges) will have a header containing a reference ID and meta-data that both gives users a sense of the content and acts as a means of searching for course material in the repository. Units and the content in the units can be cross-referenced between units as well as courses so that course material can be recycled if appropriate. 
+In this manner, contributors to the site can decide which category/categories to place their material in.  The courses will be composed of units, which in turn contain lessons, tutorials, and challenges.  Each element (courses, units, lessons, tutorials, and challenges) will have a header containing a reference ID and meta-data that both gives users a sense of the content and acts as a means of searching for course material in the repository. Units and the content in the units can be cross-referenced between courses as well as units so that course material can be recycled if appropriate. 
 

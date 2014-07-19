@@ -9,13 +9,6 @@ skills: [skills, go, here]
 units: [list of units, go, here, as md files, this-is-an-example]
 ---
 
-
-
-* This will become a table of contents (this text will be scraped).
-{:toc}
-
-# {{ page.title }}
-
 (HERE YOU WRITE A DESCRIPTION OF THE COURSE - TELL WHAT THE COURSE IS FOR, SUMMARIZE WHAT IS COVERED, PROVIDE ANY RELEVANT INFORMATION... ETC)
 
 (OPTIONAL: INCLUDE BULLET POINTS OUTLINING TOP-LEVEL HEADERS)
