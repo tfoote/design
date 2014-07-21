@@ -1,0 +1,1 @@
+{% for p in site.pages %}{% if p.reference_id == include.reference_id %}<a href="{{site.baseurl}}{{p.url}}">{{p.title}}</a>{% endif %}{% endfor %}

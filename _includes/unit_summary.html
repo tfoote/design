@@ -1,12 +1,13 @@
-
-
-<h4>This unit found in courses:</h4>
+<h4>This unit found in the following courses:</h4>
 <ul>
-{% for p in site.pages %}
-{% if p.layout == 'course' %}
-{% if p.units contains include.reference_id %}
-  <li><a href="{{site.baseurl}}{{p.url}}">{{p.title}}</a><br>{{p.abstract}}</li>
-{% endif %}
-{% endif %}
-{% endfor %}
+{% for p in site.pages %}{% if p.layout == 'course' %}{% if p.units contains include.reference_id %}
+  <li><h4><a href="{{site.baseurl}}{{p.url}}">{{p.title}}</a></h4>
+  {{p.abstract}}
+  <h4>Units</h4>
+  <ul>
+  {% for unit in p.units %}
+  <li>{% if unit == include.reference_id %} <strong>{% endif %}{% include page_link.html reference_id=unit %}{% if unit == include.reference_id %} </strong>{% endif %}</li>{% endfor %}
+  </ul>
+</li>
+{% endif %}{% endif %}{% endfor %}
 </ul>
