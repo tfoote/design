@@ -1,12 +1,13 @@
-
-
 <h4>This topic found in the following units:</h4>
 <ul>
-{% for p in site.pages %}
-{% if p.layout == 'unit' %}
-{% if p.topics contains include.reference_id %}
-  <li><a href="{{site.baseurl}}{{p.url}}">{{p.title}}</a><br>{{p.abstract}}</li>
-{% endif %}
-{% endif %}
-{% endfor %}
+{% for p in site.pages %}{% if p.layout == 'unit' %}{% if p.topics contains include.reference_id %}
+  <li><h4><a href="{{site.baseurl}}{{p.url}}">{{p.title}}</a></h4>
+  {{p.abstract}}
+  <h4>Topics</h4>
+  <ul>
+  {% for topic in p.topics %}
+  <li>{% if topic == include.reference_id %} <strong>{% endif %}{% include page_link.html reference_id=topic %}{% if topic == include.reference_id %} </strong>{% endif %}</li>{% endfor %}
+  </ul>
+</li>
+{% endif %}{% endif %}{% endfor %}
 </ul>
