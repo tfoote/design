@@ -4,9 +4,9 @@ title: Industrial MoveIt
 abstract:
  Write abstract here
 reference_id: industrial-moveit
-tags: [tags, go, here]
-skills: [skills, go, here]
-topics: [list of topics, go, here, as md files, this-is-an-example]
+tags: []
+skills: []
+topics: []
 ---
 
 

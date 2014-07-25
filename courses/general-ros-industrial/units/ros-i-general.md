@@ -6,13 +6,9 @@ abstract:
 reference_id: ros-i-general
 tags: []
 skills: []
-topics: [ros-i-create-urdf]
+topics: [ros-i-create-urdf, ros-i-create-joint-position]
 ---
 
-
-
-* This will become a table of contents (this text will be scraped).
-{:toc}
 
 # {{ page.title }}
 

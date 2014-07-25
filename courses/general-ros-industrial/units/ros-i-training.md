@@ -4,9 +4,9 @@ title: ROS Industrial Training
 abstract:
  Write abstract here
 reference_id: ros-i-training
-tags: [tags, go, here]
-skills: [skills, go, here]
-topics: [list of topics, go, here, as md files, this-is-an-example]
+tags: []
+skills: []
+topics: []
 ---
 
 
