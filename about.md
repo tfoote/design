@@ -60,7 +60,7 @@ In addition, we have written guidelines for how to define these categories:
 **Unit**: These are the various topics covered in the course.  We can think of the units as individual folders that contain all the material; any lesson, tutorial or challenge will belong to at least one unit.
 
 
-**Lesson**: Lessons will be where the educators present all the information and building blocks they are giving to the students - in slides, videos, notes, diagrams… etc. A topic can have multiple lessons, maybe to give students stopping points to apply the information they are receiving.
+**Lesson**: Lessons will be where the educators present all the information and building blocks they are giving to the students - in slides, videos, notes, diagrams… etc. A unit can have multiple lessons, maybe to give students stopping points to apply the information they are receiving.
 
 
 **Tutorial**: This is where students can be walked-through an application of what they are learning.  If it’s a new programming concept for instance, it can be a series of questions that get the student to walk through an example of the material.  (The idea here is really similar to what we think of online tutorials - these are step by step instructions and examples).

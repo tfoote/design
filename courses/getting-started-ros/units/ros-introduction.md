@@ -13,9 +13,9 @@ topics: []
 
 ROS is an open-source, meta-operating system for your robot.  It provides the services you would expect from an operating system, including hardware abstraction, low-level device control, implementation of commonly-used functionality, message-passing between processes, and package management.  It also provides tools and libraries for obtaining, building, writing, and running code across multiple computers. ROS is similar in some respects to 'robot frameworks,' such as [Player](http://playerstage.sf.net), [YARP](http://eris.liralab.it/yarp/), [Orcos](http://www.orocos.org/), [CARMEN](http://carmen.sourceforge.net), [Orca](http://orca-robotics.sourceforge.net), [MOOS](http://www.robots.ox.ac.uk/~pnewman/TheMOOS/index.html), and [Microsoft Robotics Studio](http://msdn.microsoft.com/en-us/robotics/default.aspx).
 
-The ROS runtime "graph" is a peer-to-peer network of processes (potentially distributed across machines) that are loosely coupled using the ROS communication infrastructure. ROS implements several different styles of communication, including synchronous RPC-style communication over [services](Services), asynchronous streaming of data over [topics](Topics), and storage of data on a [Parameter Server]. These are explained in greater detail in our [Conceptual Overview]. 
+The ROS runtime "graph" is a peer-to-peer network of processes (potentially distributed across machines) that are loosely coupled using the ROS communication infrastructure. ROS implements several different styles of communication, including synchronous RPC-style communication over [services](http://wiki.ros.org/Services), asynchronous streaming of data over [topics](http://wiki.ros.org/Topics), and storage of data on a [Parameter Server](http://wiki.ros.org/Parameter%20Server). These are explained in greater detail in our [Conceptual Overview](http://wiki.ros.org/ROS/Concepts). 
 
-ROS is not a realtime framework, though it is possible to integrate ROS with realtime code. The Willow Garage PR2 robot uses a system called [pr2_etherCAT], which transports ROS messages in and out of a realtime process. ROS also has [seamless integration with the Orocos Real-time Toolkit](http://www.willowgarage.com/blog/2009/06/10/orocos-rtt-and-ros-integrated).
+ROS is not a realtime framework, though it is possible to integrate ROS with realtime code. The Willow Garage PR2 robot uses a system called [pr2_etherCAT](http://wiki.ros.org/pr2_etherCAT), which transports ROS messages in and out of a realtime process. ROS also has [seamless integration with the Orocos Real-time Toolkit](http://www.willowgarage.com/blog/2009/06/10/orocos-rtt-and-ros-integrated).
 
 ##Goals
 
@@ -23,11 +23,11 @@ A lot of people ask, "How is ROS different from X?" where X is another robotics 
 
 In support of this primary goal of sharing and collaboration, there are several other goals of the ROS framework:
 
- * Thin: ROS is designed to be as thin as possible -- we won't wrap your main() -- so that code written for ROS can be used with other robot software frameworks. A corollary to this is that ROS is easy to integrate with other robot software frameworks: ROS has already been integrated with OpenRAVE, Orocos, and Player.  
- * ROS-agnostic libraries: the preferred  development model is to write ROS-agnostic libraries with clean functional interfaces.   
- * Language independence: the ROS framework is easy to implement in any modern programming language. We have already implemented it in [[rospy Python]], [[roscpp C++]], and [[roslisp Lisp]], and we have experimental libraries in Java and Lua.  
- * Easy testing: ROS has a builtin unit/integration test framework called [[rostest]] that makes it easy to bring up and tear down test fixtures.
- * Scaling: ROS is appropriate for large runtime systems and for large development processes.  
+* Thin: ROS is designed to be as thin as possible -- we won't wrap your main() -- so that code written for ROS can be used with other robot software frameworks. A corollary to this is that ROS is easy to integrate with other robot software frameworks: ROS has already been integrated with OpenRAVE, Orocos, and Player.  
+* ROS-agnostic libraries: the preferred  development model is to write ROS-agnostic libraries with clean functional interfaces.   
+* Language independence: the ROS framework is easy to implement in any modern programming language. We have already implemented it in [Python](http://wiki.ros.org/rospy), [C++](http://wiki.ros.org/roscpp), and [Lisp](http://wiki.ros.org/roslisp), and we have experimental libraries in Java and Lua.  
+* Easy testing: ROS has a builtin unit/integration test framework called [rostest](http://wiki.ros.org/rostest) that makes it easy to bring up and tear down test fixtures.  
+* Scaling: ROS is appropriate for large runtime systems and for large development processes.  
 
 So, "How is ROS different from X?" It's hard to answer for every X, but first, if you choose to use X, we hope that you can still use many of the libraries distributed with ROS. As for more specifics, this e-mail by Brian Gerkey (of both Player and ROS) to the ros-users mailing list regarding the differences between ROS and Player, including OpenCV integration, provides some comparisons:
 
@@ -51,11 +51,11 @@ While a port to Microsoft Windows for ROS is possible, it has not yet been fully
 
 ##Releases
 
-The core ROS system, along with useful tools and libraries are regularly released as a [[Distributions ROS Distribution]]. This distribution is similar to a Linux distribution and provides a set of compatible software for others to use and build upon. 
+The core ROS system, along with useful tools and libraries are regularly released as a [ROS Distribution](http://wiki.ros.org/Distributions). This distribution is similar to a Linux distribution and provides a set of compatible software for others to use and build upon. 
 
 ##Contributing
 
-As ROS is open source, we hope that you will consider contributing to ROS or libraries that are compatible with ROS. Please see our section on [[Contributing]] for more information on how you can participate in the ROS community.
+As ROS is open source, we hope that you will consider contributing to ROS or libraries that are compatible with ROS. Please see our section on [Contributing](http://wiki.ros.org/Contributing) for more information on how you can participate in the ROS community.
 
 
 

@@ -11,11 +11,9 @@ topics: []
 
 # {{ page.title }}
 
-
-
 ##Overview
 
-A ROS client library is a collection of code that eases the job of the ROS programmer. It takes many of the [[ROS/Overview ROS concepts]] and makes them accessible via code.  In general, these libraries let you write ROS [[Nodes nodes]], publish and subscribe to [[Topics topics]], write and call [[Services services]], and use the [[Parameter Server]]. Such a library can be implemented in any programming language, though the current focus is on providing robust C++ and Python support.
+A ROS client library is a collection of code that eases the job of the ROS programmer. It takes many of the [[ROS/Overview ROS concepts]] and makes them accessible via code.  In general, these libraries let you write ROS [[Nodes nodes]], publish and subscribe to [[Topics topics]], write and call [Services](wiki.ros.org/services), and use the [[Parameter Server]]. Such a library can be implemented in any programming language, though the current focus is on providing robust C++ and Python support.
 
 ##Main client libraries
 
