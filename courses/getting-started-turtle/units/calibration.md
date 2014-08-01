@@ -10,7 +10,7 @@ topics: []
 
 ---
 
-----
+# {{ page.title }}
 
 ###TurtleBot Odometry and Gyro Calibration
 
@@ -31,7 +31,9 @@ This will show you how to calibrate or test the calibration of a TurtleBot which
 
 First position TurtleBot at the center of a long straight wall (at least 2 meters long), facing towards the wall, at about 30 cm away from the wall.
 
-**calibration1.JPG calibration2.JPG**
+<p align="center">
+	<img src="{{site.baseurl}}/courses/getting-started-turtle/turtle-calibration.png"/>
+</p>
 
 ##2. Execution
 
@@ -63,4 +65,7 @@ For a single run you can set the parameters using dynamic_reconfigure:
 
 	rosrun dynamic_reconfigure reconfigure_gui 
 
-Then select the turtlebot_node and set the parameters. 
+Then select the turtlebot_node and set the parameters. Return to the calibration step and repeat the process until both multipliers are close to 1.
+
+Once both correction parameters have converged to stable values, edit the turtlebot.launch file to use these parameters in the future. 
+

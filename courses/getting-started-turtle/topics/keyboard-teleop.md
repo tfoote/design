@@ -10,7 +10,7 @@ required_skills: [install, network configuration, bringup]
 
 ---
 
-----
+# {{ page.title }}
 
 *This assumes that you have a TurtleBot which has already been brought up in this tutorial. See TurtleBot Bringup if you have not brought up the TurtleBot.*
 

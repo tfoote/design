@@ -10,7 +10,7 @@ provided skills: [interactive makers, teleoperation]
 required_skills: [install, network configuration, bringup]
 ---
 
-----
+# {{ page.title }}
 
 ##Introduction
 
@@ -36,10 +36,13 @@ Next, start up a copy of rviz displaying the marker topics. On the PC, type:
 
 Check the "Interactive Makers" display component and select the "Interact" tool in the tool palette on the top of the screen (shown below) to bring up the interactive markers for the turtlebot.
 
-**turtlebot_interactive_markers.png**
+<p align="center">
+	<img src="{{site.baseurl}}/courses/getting-started-turtle/interact.png"/>
+</p>
 
 You can now drag the red arrows to drive the TurtleBot forward and backward, and the blue ring to rotate the TurtleBot. You can also drag the blue ring to both rotate and translate the TurtleBot at the same time.
 
-**Video**
+###**Video**
 
+<div style="text-align: left"><iframe width="480" height="360" src="//www.youtube.com/embed/MQ6fNrehMNI" frameborder="0" allowfullscreen></iframe></div>
 

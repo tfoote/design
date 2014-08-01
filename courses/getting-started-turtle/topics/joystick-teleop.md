@@ -6,12 +6,11 @@ abstract:
   Joystick teleoperation of a turtlebot
 tags: [TurtleBot, teleoperation, joystick]
 provided skills: [teleoperation]
-required_skills: [install, network configuration, bringup]
+required_skills: [install, network configuration, bringup, keyboard-teleop]
 
 ---
 
-----
-
+# {{ page.title }}
 
 ##Joystick
 

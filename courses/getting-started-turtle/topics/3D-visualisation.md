@@ -10,10 +10,9 @@ provided skills: [camera data]
 required_skills: [install, network configuration]
 ---
 
-----
+# {{ page.title }}
 
-
-## Starting the 3D sensor
+##1. Starting the 3D sensor
 
 Plug in your sensor to the netbook.
 
@@ -21,35 +20,37 @@ Plug in your sensor to the netbook.
 
 Assuming you have already launched the turtlebot software (refer to the turtlebot bringup tutorial), you can proceed to launch the 3D sensor functionality on top:
 
-	roslaunch turtlebot_bringup 3dsensor.launch
+	> roslaunch turtlebot_bringup 3dsensor.launch
 
 By default, this will launch the 3d sensor with all the processing modules ON. You can turn these off by sending the appropriate arguments to the launch command (look inside 3dsensor.launch for more information).
 
 The turtlebot apps themselves do this - they only enable exactly what they need to minimise the amount of processing that is done for their task.
 
-## Start Rviz
+##2. Start Rviz
 
 On your workstation computer start rviz already configured to visualize the robot and its sensor's output:
 
-	roslaunch turtlebot_rviz_launchers view_robot.launch
+	> roslaunch turtlebot_rviz_launchers view_robot.launch
 
 Note that this also lets you various other aspects of the robot as well.
 
-## Enable the desired displays
+##3. Enable the desired displays
 
 To visualize any display you want, just click on its check button. These are the displayed sensors:
 
-*DepthCloud
-*Registered DepthCloud
-*Image
-*PointCloud
-*Registered PointCloud 
+* DepthCloud  
+* Registered DepthCloud  
+* Image  
+* PointCloud  
+* Registered PointCloud  
 
 For example, in the following screen capture both LaserScan and Registered DepthCloud are enabled.
 
-*rviz Turtlebot capture
+<p align="center">
+  <img src="{{site.baseurl}}/courses/getting-started-turtle/laserscan.png"/>
+</p>
 
-## A bit more about 3D data structures
+##4. A bit more about 3D data structures
 
 Groovy introduced the depth_image data type that is now used by default in most places. Without processing, the openni nodelet will just produce depth images. This is the raw data structure provided by the openni driver for 3d information. Upon enabling some processing, this can be converted into the more usable PCL format.
 

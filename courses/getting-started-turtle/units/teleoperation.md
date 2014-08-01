@@ -10,14 +10,4 @@ topics: [keyboard-teleop, joystick-teleop, interactive-makers-teleop]
 
 ---
 
-----
-
-
-###Keyboard Teleop
-*Keyboard teleoperation of a turtlebot.
-
-###Joystick Teleop
-*Joystick teleoperation of a turtlebot.
-    
-###Interactive Markers Teleop
-*A tutorial describing how to use rviz interactive markers for controlling the TurtleBot.
+# {{ page.title }}

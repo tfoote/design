@@ -11,7 +11,12 @@ In addition, before contributing, please review the **[About](https://tfoote.git
 
 _(For more details on how to contribute, see course [How to Contribute](https://tfoote.github.io/design/courses/how-to-contribute/how-to-contribute/))_
 
+This page contains:
 
+* Basics of Git
+* Adding or Modifying Material
+* Testing and Working Offline
+* Basics of Markdown Syntax
 
 ----
 
