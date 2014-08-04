@@ -2,7 +2,6 @@
 
 <div class="row">
 
-
 {% if page.previous %}
 <div class="content-continaer col-md-9">
   <h2> Previous Courses </h2
@@ -90,10 +89,13 @@
 {% endfor %}
   </ol>
 
+
+
   </div>
   <div class="sidebar-container col-md-3">
     {% include sidebar.html %}
   </div>
+{% include comments-container.html ref_page=page%}
 </div>
 
 {% include footer.html %}
