@@ -17,6 +17,10 @@ Enabling collaboration, accessibility, and innovation within the **ROS and Robot
 
 This project began with the general mission of making it easier to teach [Robotics Operating System](http://www.ros.org/) (ROS) using Willow Garage’s [TurtleBot](http://www.turtlebot.com/).  We started brainstorming ways to facilitate and consolidate collaboration within the already-existent ROS education community.  This led us to develop a website using a Git web repository as the host, a collaboration platform many open source projects already use.  Once we got the ball rolling, we realized that the collaborative nature of the project enabled it to extend beyond just teaching ROS with TurtleBot; if anyone can upload material related to TurtleBot, they can also contribute any material relevant to teaching and learning robotics.  Therefore, the general purpose of this site is providing free robotics education resources relevant to any and all areas of robotics.
 
+###**Why Git and not Wiki?**
+
+
+
 ###**What the Courses Look Like**
 
 Since no two teachers have the same teaching style, we needed to prepare for material coming into the site in all manner of shapes and sizes.  At the same time, we needed to make sure that the site still enabled teachers to preserve their unique teaching styles.  We decided to address this issue by establishing a standard format to organize material on the site.  We hope this will provide common grounds upon which collaboration can occur while ensuring flexibility in course content and style.  This format enables incoming material to be categorized, which will in turn reduce redundancy and will enable a means for users to easily navigate through material on the site.
