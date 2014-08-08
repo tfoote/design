@@ -1,4 +1,4 @@
-g{% include header.html %}
+{% include header.html %}
 
 <div class="row">
 
@@ -121,7 +121,6 @@ g{% include header.html %}
 </ol>
 
 
-
   </div>
 
 
@@ -132,6 +131,7 @@ g{% include header.html %}
     {% include unit_summary.html reference_id=page.reference_id %}
 
   </div>
+{% include comments-container.html ref_page=page%}
 </div>
 
 {% include footer.html %}
