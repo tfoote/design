@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Categories
+title: All Courses
 ---
 
-#{{ page.title }}
+#All Courses by Category
 
 {% include categories.html %}
 

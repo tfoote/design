@@ -24,7 +24,21 @@
 {% assign final =  array | split:"," %}
 <ul>
 {% for item in final %}
-<li>{{ item }}<br></li>
+<h2>{{ item }}<br></h2>
+
+	{% for p in site.pages %}
+	    {% if p.layout == 'course' %}
+		{% for c in p.categories %}
+			{% if c == item %}
+
+				<h4><a href="{{site.baseurl}}{{p.url}}">{{p.title}}</a></h4>
+  				{{p.abstract}}
+
+	    	{% endif %}
+		{% endfor %}
+		{% endif %}
+	{% endfor %}
+
 {% endfor %}
 </ul>
 

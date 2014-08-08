@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contribute
+title: How to Contribute Material
 ---
 
 #Contribute
