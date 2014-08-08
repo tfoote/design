@@ -1,0 +1,30 @@
+{% assign exists = 0 %}
+{% assign array =  | split:"," %}
+
+{% for p in site.pages %}
+  {% for c in p.categories %}
+    {% capture category %}{{ c }}{% endcapture %}
+
+    {% for item in individual %}
+	{% capture i %}{{ item }}{% endcapture %}
+	{% if category == i %}{% assign exists = 1 %}{% endif %}
+    {% endfor %}
+
+    {% if exists == 0 %}
+	{% capture string %}{{ array | append:category }}{% endcapture %}
+	{% capture array %}{{ string | append:"," }}{% endcapture %}
+    {% else %}
+	{% assign exists = 0 %}
+    {% endif %}
+
+    {% assign individual =  array | split:"," %}
+
+{% endfor %}{% endfor %}
+
+{% assign final =  array | split:"," %}
+<ul>
+{% for item in final %}
+<li>{{ item }}<br></li>
+{% endfor %}
+</ul>
+

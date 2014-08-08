@@ -4,12 +4,16 @@ On the right hand side you'll find links to view the source of this page on Gith
 
 ##For More Extensive Changes (recommended)
 
-For more more extensive changes, you will want to:
+For more extensive changes, you will want to:
 
-1. First fork this repository
-2. Clone it to your local machine (set up a local copy of the repository)
-3. Edit it there
+1. First fork this repository  
+  * This will create a version of the project under your username.  
+2. Clone it to your local machine (set up a local copy of the repository)  
+  * 
+3. Edit it there  
+  * 
 4. Then propose a pull request
+  * 
 
 The following instructions will lead you through this process.
 
@@ -17,7 +21,7 @@ The following instructions will lead you through this process.
 
 First make sure you don't already have a fork of this repository at:
 
-    https://github.com/<your username>/design
+* https://github.com/<your username>/design
 
 If you do not, then browse to this [repository](https://github.com/ros2/design) and click on the "Fork" button:
 

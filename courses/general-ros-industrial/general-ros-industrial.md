@@ -4,6 +4,7 @@ title: General ROS Industrial
 abstract:
   Learn about ROS-Industrial general capabilities, libraries, messages, etc
 reference_id: general-ros-industrial
+categories: [ROSIndustrial, ROS]
 tags: [industrial, general, ros, tutorials]
 skills: [general ros-i]
 units: [ros-i-training, ros-i-general, industrial-calibration-toolbox, industrial-moveit, industrial-trajectory-filters]

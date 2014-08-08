@@ -9,8 +9,7 @@ skills: [make a course]
 units: [adding-or-modifying-material, testing-and-working-offline, markdown-syntax]
 
 ---
-
-----
+# {{ page.title }}
 
 All of the pages on this website have a sidebar on the right hand side with all pull requests (open and closed) which involve this file in some way. **_Please review the previous pull requests before proposing a change to prevent duplicates and to prevent rehashing issues already addressed._**
 
