@@ -4,6 +4,7 @@ title: Getting Started with TurtleBot
 abstract:
  Learn how to start the TurtleBot software.
 reference_id: getting-started-turtle
+categories: [TurtleBot]
 tags: [TurtleBot]
 skills: [bringup, teleoperation, calibration]
 units: [bringup, teleoperation, calibration]

@@ -4,6 +4,7 @@ title: How to Contribute
 abstract:
  Learn how to contribute to this site.
 reference_id: how-to-contribute
+categories: [Site Help]
 tags: [course, how to, formatting]
 skills: [make a course]
 units: [adding-or-modifying-material, testing-and-working-offline, markdown-syntax]
