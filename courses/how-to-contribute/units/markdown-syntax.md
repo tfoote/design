@@ -11,6 +11,7 @@ topics: [syntax-highlighting, embedding-pictures, youtube-videos, embedding-goog
 
 ----
 
+#{{ page.title }}
 
 In this unit you can learn necessary Markdown syntax relevant to contributing to the site. 
 

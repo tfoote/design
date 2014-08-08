@@ -6,14 +6,14 @@ On the right hand side you'll find links to view the source of this page on Gith
 
 For more extensive changes, you will want to:
 
-1. First fork this repository  
+1. **First fork this repository**  
   * This will create a version of the project under your username.  
-2. Clone it to your local machine (set up a local copy of the repository)  
-  * 
-3. Edit it there  
-  * 
-4. Then propose a pull request
-  * 
+2. **Clone it to your local machine (set up a local copy of the repository)**  
+  * This means that you will save, onto your computer, your own version of all the files on this site. These are the ones you will edit.  
+3. **Edit it there**  
+  * Use the language [Markdown](https://tfoote.github.io/design/courses/how-to-contribute/units/markdown-syntax/) to make your edits.  
+4. **Then propose a pull request**  
+  * When you are finished editing, you submit your work using a "pull request" in Git. Your edits will be reviewed and, if approved, incorporated into the site!
 
 The following instructions will lead you through this process.
 

@@ -5,6 +5,10 @@ title: How to Contribute Material
 
 #[Contribute](https://tfoote.github.io/design/courses/how-to-contribute/how-to-contribute/)
 
+###**Why Contribute?**
+
+Although we have provided some initial ROS, ROS-Industrial, and TurtleBot educational material, the foundation of this site is built upon user input! Please feel free to add to any of the existing courses, or to add entirely new material!
+
 ###**BEFORE CONTRIBUTING**
 
 All of the pages on this website have a sidebar on the right hand side with all pull requests (open and closed) which involve this file in some way. **_Please review the previous pull requests before proposing a change to prevent duplicates and to prevent rehashing issues already addressed._**
