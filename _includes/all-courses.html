@@ -1,0 +1,38 @@
+{% assign exists = 0 %}
+{% assign array =  | split:"," %}
+
+
+
+<ul style="list-style: none;">
+{% for p in site.pages %}{% if p.layout == 'course' %}
+
+	<li><h2><a href="{{site.baseurl}}{{p.url}}">{{p.title}}</a></h2></li>
+
+	<ul style="list-style: none;">
+	{% for unit_id in p.units %}
+		{% capture u_id %}{{unit_id}}{% endcapture %}
+
+		{% for u in site.pages %}{% if u.reference_id == u_id %}
+			<li><h4><a href="{{site.baseurl}}{{p.url}}">{{u.title}}</a><br></h4></li>
+			
+			<ul style="list-style: none;">
+			{% for topic_id in u.topics %}
+				{% capture t_id %}{{topic_id}}{% endcapture %}
+
+				{% for t in site.pages %}{% if t.reference_id == t_id %}
+					<li><h5><a href="{{site.baseurl}}{{p.url}}">{{t.title}}</a><br></h5></li>
+
+				{% endif %}{% endfor %}
+			{% endfor %}
+			</ul>
+
+		{% endif %}{% endfor %}
+
+	{% endfor %}
+	</ul>
+
+<hr>
+{% endif %}{% endfor %}
+</ul>
+
+

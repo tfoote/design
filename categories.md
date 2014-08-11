@@ -1,6 +1,6 @@
 ---
 layout: default
-title: All Courses
+title: All Courses by Category
 ---
 
 #All Courses by Category

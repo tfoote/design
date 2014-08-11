@@ -5,7 +5,7 @@ abstract:
  Learn how to contribute to this site.
 reference_id: how-to-contribute
 categories: [Site Help]
-tags: [course, how to, formatting]
+tags: [site help]
 skills: [make a course]
 units: [use-git, adding-or-modifying-material, testing-and-working-offline, markdown-syntax]
 

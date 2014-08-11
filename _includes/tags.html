@@ -1,17 +1,17 @@
 {% assign exists = 0 %}
 {% assign array =  | split:"," %}
 
-{% for p in site.pages %}
-  {% for c in p.categories %}
-    {% capture category %}{{ c }}{% endcapture %}
+{% for p in site.pages %}{% if p.layout == 'course' and p.reference_id != 'course-template' %}
+  {% for t in p.tags %}
+    {% capture tag %}{{ t }}{% endcapture %}
 
     {% for item in individual %}
 	{% capture i %}{{ item }}{% endcapture %}
-	{% if category == i %}{% assign exists = 1 %}{% endif %}
+	{% if tag == i %}{% assign exists = 1 %}{% endif %}
     {% endfor %}
 
     {% if exists == 0 %}
-	{% capture string %}{{ array | append:category }}{% endcapture %}
+	{% capture string %}{{ array | append:tag }}{% endcapture %}
 	{% capture array %}{{ string | append:"," }}{% endcapture %}
     {% else %}
 	{% assign exists = 0 %}
@@ -19,7 +19,7 @@
 
     {% assign individual =  array | split:"," %}
 
-{% endfor %}{% endfor %}
+{% endfor %}{% endif %}{% endfor %}
 
 {% assign final =  array | split:"," %}
 
@@ -30,8 +30,8 @@
 	<ul style="list-style: none;">
 	{% for p in site.pages %}
 	    {% if p.layout == 'course' %}
-		{% for c in p.categories %}
-			{% if c == item %}
+		{% for t in p.tags %}
+			{% if t == item %}
 
 				<li><h4><a href="{{site.baseurl}}{{p.url}}">{{p.title}}</a></h4></li>
   				{{p.abstract}}
