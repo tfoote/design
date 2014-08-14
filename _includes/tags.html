@@ -1,9 +1,10 @@
 {% assign exists = 0 %}
 {% assign array =  | split:"," %}
 
-{% for p in site.pages %}{% if p.layout == 'course' and p.reference_id != 'course-template' %}
+{% for p in site.pages %}{% if p.reference_id != 'course-template' or p.reference_id != 'unit-template' or p.reference_id != 'lesson-template' or p.reference_id != 'tutorial-template' or p.reference_id != 'challenge-template' %}
   {% for t in p.tags %}
-    {% capture tag %}{{ t }}{% endcapture %}
+    {% assign T = t | upcase %}
+    {% capture tag %}{{ T }}{% endcapture %}
 
     {% for item in individual %}
 	{% capture i %}{{ item }}{% endcapture %}
@@ -22,26 +23,98 @@
 {% endfor %}{% endif %}{% endfor %}
 
 {% assign final =  array | split:"," %}
+{% assign final =  final | sort %}
 
 <ul style="list-style: none;">
 {% for item in final %}
-<li><h2>{{ item }}<br></h2></li>
+  {% assign course_exists = 0 %}
+  {% assign unit_exists = 0 %}
+  {% assign topic_exists = 0 %}
 
+  <li><h2>{{ item }}<br></h2></li>
+  
+  <ul style="list-style: none;">
+
+	{% for p in site.pages %}
+	  {% if p.layout == 'course' %}
+		{% for t in p.tags %}
+			{% assign T = t | upcase %}
+			{% if T == item %}
+				{% assign course_exists = 1 %}
+	    		{% endif %}
+		{% endfor %}
+	  {% endif %}
+	{% endfor %}
+	{% if course_exists == 1 %}<li><h3>Courses<br></h3></li>{% endif %}
+	{% assign course_exists = 0 %}
 	<ul style="list-style: none;">
 	{% for p in site.pages %}
 	    {% if p.layout == 'course' %}
 		{% for t in p.tags %}
-			{% if t == item %}
-
+			{% assign T = t | upcase %}
+			{% if T == item %}
 				<li><h4><a href="{{site.baseurl}}{{p.url}}">{{p.title}}</a></h4></li>
   				{{p.abstract}}
-
 	    	{% endif %}
 		{% endfor %}
-		{% endif %}
+		{% endif %}	
 	{% endfor %}
 	</ul>
 
+	{% for p in site.pages %}
+	  {% if p.layout == 'unit' %}
+		{% for t in p.tags %}
+			{% assign T = t | upcase %}
+			{% if T == item %}
+				{% assign unit_exists = 1 %}
+	    		{% endif %}
+		{% endfor %}
+	  {% endif %}
+	{% endfor %}
+	{% if unit_exists == 1 %}<li><h3>Units<br></h3></li>{% endif %}
+	{% assign unit_exists = 0 %}
+	<ul style="list-style: none;">
+	{% for p in site.pages %}
+	    {% if p.layout == 'unit' %}
+		{% for t in p.tags %}
+			{% assign T = t | upcase %}
+			{% if T == item %}
+				<li><h4><a href="{{site.baseurl}}{{p.url}}">{{p.title}}</a></h4></li>
+  				{{p.abstract}}
+	    	{% endif %}
+		{% endfor %}
+		{% endif %}	
+	{% endfor %}
+	</ul>
+
+	{% for p in site.pages %}
+	  {% if p.layout == 'lesson' or p.layout == 'tutorial' or p.layout == 'challenge' %}
+		{% for t in p.tags %}
+			{% assign T = t | upcase %}
+			{% if T == item %}
+				{% assign topic_exists = 1 %}
+	    		{% endif %}
+		{% endfor %}
+	  {% endif %}
+	{% endfor %}
+	{% if topic_exists == 1 %}<li><h3>Topics<br></h3></li>{% endif %}
+	{% assign topic_exists = 0 %}
+	<ul style="list-style: none;">
+	{% for p in site.pages %}
+	    {% if p.layout == 'lesson' or p.layout == 'tutorial' or p.layout == 'challenge' %}
+		{% for t in p.tags %}
+			{% assign T = t | upcase %}
+			{% if T == item %}
+				<li><h4><a href="{{site.baseurl}}{{p.url}}">{{p.title}}</a></h4></li>
+  				{{p.abstract}}
+	    	{% endif %}
+		{% endfor %}
+		{% endif %}	
+	{% endfor %}
+	</ul>
+
+  </ul>
+<hr>
 {% endfor %}
 </ul>
 

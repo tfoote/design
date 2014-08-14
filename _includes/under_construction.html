@@ -1,32 +1,9 @@
-<html>
-<head>
-<style type="text/css">
 
-.header-cont {
-width:800px;
-background: #FFFF00;
-}
+<div class="header-cont" style="background-color:yellow">
 
-.content {
-width:960px;
-background: #FFFF00;
-border: 1px solid #CCC;
-height: 2000px;
-margin: 20px auto;
-}
-
-
-</style>
-</head>
-<body>
-
-<div class="header-cont">
-
-<h2 style="background-color:yellow"><span class="glyphicon glyphicon-warning-sign"></span>THIS PAGE IS CURRENTLY UNDER CONSTRUCTION</h2>
+<h2><span class="glyphicon glyphicon-warning-sign"></span>THIS PAGE IS CURRENTLY UNDER CONSTRUCTION</h2>
 
 {% if include.email != '' or != 'INSERT AUTHOR/CONTACT EMAIL(S) HERE' %}<p>This page is being worked on by: {{ include.email }}{% endif %}
 
 </div>
 
-</body>
-</html> 

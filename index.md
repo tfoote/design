@@ -17,6 +17,20 @@ Contributors can provide material ranging anywhere from individual activities an
 
 * To learn about how to **contribute by submitting or modifying material**, click [here](https://tfoote.github.io/design/contribute/)
 
-* To **browse through courses** by category, click [here](https://tfoote.github.io/design/categories)
+* To **browse through educational content**, click on one of the following buttons :
+
+<ul class="button-group" style="list-style: none;" >
+<li><a href="{{ site.baseurl }}/all-courses" type="button" class="btn btn-default tbmargin">
+  All Courses
+</a>
+
+<a href="{{ site.baseurl }}/categories" type="button" class="btn btn-default tbmargin">
+  All Courses by Category
+</a>
+
+<a href="{{ site.baseurl }}/tags" type="button" class="btn btn-default tbmargin">
+  All Content by Tag
+</a></li>
+</ul>
 
 * For help **navigating** this site, click [here](https://tfoote.github.io/design/navigating)

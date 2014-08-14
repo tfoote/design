@@ -7,6 +7,16 @@ reference_id: unit-template
 tags: [tags, go, here]
 skills: [skills, go, here]
 topics: [list of topics, go, here, as md files, this-is-an-example]
+#if page is finished, change under_construction to “False”
+under_construction: True
+#please provide contributor(s)/author(s) and specify if person is a point of contact (default is "True")
+contributors:
+  - name: NAME
+    email: EMAIL
+    corresponding_author: True
+  - name: NAME
+    email: EMAIL
+    corresponding_author: True
 ---
 
 

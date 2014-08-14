@@ -1,9 +1,10 @@
 ---
 layout: default
-title: All Courses by Tag
+title: Tags
 ---
 
-#All Courses by Tag
+#All Content by Tag
+
 
 {% include tags.html %}
 

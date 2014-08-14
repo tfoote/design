@@ -25,3 +25,35 @@
     <a class="list-group-item">Please Login to View Pull Requests</a>
   </div>
 </div>
+
+{% if page.under_construction %}
+
+<div class="header-cont" style="background-color:yellow">
+
+<h2><span class="glyphicon glyphicon-warning-sign"></span>THIS PAGE IS CURRENTLY UNDER CONSTRUCTION</h2>
+
+This page is being worked on by: 
+
+
+{% for c in page.contributors %}
+{% assign exists = 0 %}
+<ul>
+	{% if c.name != 'NAME' %}
+		<li>{{ c.name }}<br></li>
+		{% assign exists = 1 %}
+	{% endif %}
+	{% if c.email != 'EMAIL' %}
+		{% if exists == 0 %}
+			<li>{{ c.email }}<br></li>
+		{% elsif exists == 1 %}
+			{{ c.email }}<br>
+		{% endif %}
+		{% assign exists = 1 %}
+	{% endif %}
+	{% if c.corresponding_author and exists == 1 %}(This person is a corresponding author){% endif %}
+</ul>
+{% endfor %}
+
+
+</div>
+{% endif %}

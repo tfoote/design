@@ -5,9 +5,18 @@ title: Interactive Makers Teleop
 abstract:
   How to use rviz interactive markers for controlling the TurtleBot
 tags: [TurtleBot, teleoperation interactive makers]
-
 provided skills: [interactive makers, teleoperation]
 required_skills: [install, network configuration, bringup]
+#if page is finished, change under_construction to “False”
+under_construction: True
+#please provide contributor(s)/author(s) and specify if person is a point of contact (default is "True")
+contributors:
+  - name: NAME
+    email: EMAIL
+    corresponding_author: True
+  - name: NAME
+    email: EMAIL
+    corresponding_author: True
 ---
 
 # {{ page.title }}
