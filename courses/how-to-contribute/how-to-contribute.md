@@ -9,7 +9,7 @@ tags: [site help]
 skills: [make a course]
 units: [use-git, adding-or-modifying-material, testing-and-working-offline, markdown-syntax]
 #if page is finished, change under_construction to “False”
-under_construction: True
+under_construction: False
 #please provide contributor(s)/author(s) and specify if person is a point of contact (default is "True")
 contributors:
   - name: Tully Foote

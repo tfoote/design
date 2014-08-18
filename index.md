@@ -13,11 +13,11 @@ Contributors can provide material ranging anywhere from individual activities an
 
 ---
 
-* To learn more **about** the site (it's purpose, organization, and important information) click [here](https://tfoote.github.io/design/about/)
+* To learn more **about** the site (it's purpose, organization, and important information) click [here]({{ site.baseurl }}/about/)
 
-* To learn about how to **contribute by submitting or modifying material**, click [here](https://tfoote.github.io/design/contribute/)
+* To learn about how to **contribute by submitting or modifying material**, click [here]({{ site.baseurl }}/contribute/)
 
-* To **browse through educational content**, click on one of the following buttons :
+* To **browse through educational content**, click on one of the following buttons:
 
 <ul class="button-group" style="list-style: none;" >
 <li><a href="{{ site.baseurl }}/all-courses" type="button" class="btn btn-default tbmargin">
@@ -33,4 +33,4 @@ Contributors can provide material ranging anywhere from individual activities an
 </a></li>
 </ul>
 
-* For help **navigating** this site, click [here](https://tfoote.github.io/design/navigating)
+* For help **navigating** this site and repository, click [here]({{ site.baseurl }}/navigating)

@@ -20,10 +20,8 @@ contributors:
     corresponding_author: True
 ---
 
-----
+#{{ page.title }}
 
-
-{% include under_construction.html email='mliebmanpelaez@gmail.com' %}
 
 == General ROS-Industrial ==
 The following sections cover ROS-Industrial general capabilities, libraries, messages, etc.

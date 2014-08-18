@@ -12,12 +12,11 @@ units: [installing-and-configuring-your-ros-environment, navigating-the-ros-file
 under_construction: True
 #please provide contributor(s)/author(s) and specify if person is a point of contact (default is "True")
 contributors:
-  - name: NAME
-    email: EMAIL
-    corresponding_author: True
+  - name: Mariana Liebman-Pelaez
+    email: mliebmanpelaez@gmail.com
+    corresponding_author: False
   - name: NAME
     email: EMAIL
     corresponding_author: True
 ---
 
-{% include under_construction.html email='mliebmanpelaez@gmail.com' %}

@@ -1,26 +1,12 @@
-# ROS 2.0 design
+#ROS Courses
+
+Hello, welcome to ROS Courses! The goal of the repository/website is to consolidate existing online ROS education material and promote future collaborative course development.
 
 This repository is a [Jekyll](http://jekyllrb.com/) website hosted on [Github Pages](http://pages.github.com/) at https://tfoote.github.io/design/
 
-The repository/website is meant to be a point around which users can collaborate on the ROS 2.0 design efforts as well as capture those discussions for posterity.
+For more details on this site and project, please visit the site [https://tfoote.github.io/design/](https://tfoote.github.io/design/) or deploy (instructions below). Information can be found in the [About]({{ site.baseurl }}/about/) section of the site or, in the repository, in design/about.md. 
 
-
-## Working Locally
-
-You can run the site locally by running this command in this repository:
-
-```
-./deploy_jekyll.sh
-```
-
-## Requirements for development
-
-For development and testing it requires docker to be installed. (ubuntu package docker.io)
-
-And navgiating to your browser to:
-
-[http://localhost:4000/](http://localhost:4000/)
-
+In addition, for information on future work and opportunities to contribute, see section "Thoughts on Users and Future Work" in "About" section. 
 
 ## Requirements for deployment
 
@@ -28,12 +14,16 @@ For deploying locally, you need jekyll jekyll-sitemap pygments and nodejs instal
 
 Then use jekyll command directly. 
 
-## Site Setup
+## Working Locally and Requirements for Development
 
-Site is a Jekyll website with `design.ros2.org` as the `CNAME`.
+You can run the site locally by running this command in this repository:
 
-The site requires no static generation outside of github's static jekyll generation, which means that changes are published to the site as soon as they are pushed (can take up to 10 minutes for github to update the site).
+```
+./deploy_jekyll.sh
+```
 
-The github login (for showing pull requests) also requires that https://github.com/prose/gatekeeper is setup in heroku, and the url for that is http://auth.design.ros2.org/authenticate/TEMP_TOKEN. Because of the free Heroku instance, the first time someone logins in after a period of time, there is a delay.
+For development and testing it requires docker to be installed. (ubuntu package docker.io)
 
-You will need to register an Application on the github account and connect it to the heroku with the right callback location. 
+And navgiating to your browser to:
+
+[http://localhost:4000/](http://localhost:4000/)

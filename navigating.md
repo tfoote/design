@@ -1,11 +1,40 @@
 ---
 layout: default
-title: Navigating this site
+title: Navigating
 ---
 
+#Navigating this Site and Repository
 
+##Finding Courses
 
-All elements (courses, units, lessons, tutorials, and challenges) will be indexed and will reference the material they belong with.  In addition, units and the elements they contain can also be cross-referenced if material is applicable to more than one course and/or unit.  For more detail about indexing and referencing, see course on "How to Contribute."
+All educational material in this site is organized in **courses**. All courses can be found in the [All courses]({{ site.baseurl }}/all-courses) tab in the top menu. In addition, there is also a tab in the top menu where you can find [all courses organized by category]({{ site.baseurl }}/categories). You can also browse through material on the site by its **tags** in the [Tags]({{ site.baseurl }}/tags) tab bound in the top menu.
 
-In this manner, contributors to the site can decide which category/categories to place their material in.  The courses will be composed of units, which in turn contain lessons, tutorials, and challenges.  Each element (courses, units, lessons, tutorials, and challenges) will have a header containing a reference ID and meta-data that both gives users a sense of the content and acts as a means of searching for course material in the repository. Units and the content in the units can be cross-referenced between courses as well as units so that course material can be recycled if appropriate. 
+Once you are in a course, you can easily navigate through its units and topics by using the sidebar on the righthand side of the site. This will show the units in a course and the topics in a unit.
+
+<p align="center">
+<img src="{{ site.baseurl }}/img/sidebar-nav.png">
+</p>
+
+##Learning how to Contribute
+
+To learn how to **add/edit material** to this site, you can view the [How to Contribute Material]({{ site.baseurl }}/contribute) tab in the top menu or you can view the course on [How to Contribute]({{ site.baseurl }}/courses/how-to-contribute/how-to-contribute).
+
+##Organization of Repository
+
+Once in the repository, we have organized the courses as follows:
+
+Each course has its own separate folder within the **courses** folder (NOTE that the name of each folder is the same as the name of the file for the course that it contains; for example, the **how-to-contribute.md** course file is within the design/courses/**how-to-contribute**/ folder).
+
+<p align="center">
+<img src="{{ site.baseurl }}/img/course-folders.png">
+</p>
+
+Once in one of the course folders, you will find the course .md file, any images included in the courses, as well as two subfolders: **units**, and **topics**. 
+
+From there, all units are found in the **units** folder and all topics are found in the **topics** folder (lesosns, tutorials, and challenges) as .md files. 
+
+<p align="center">
+<img src="{{ site.baseurl }}/img/inside-course-folder.png">
+</p>
+
 

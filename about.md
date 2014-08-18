@@ -17,9 +17,9 @@ Enabling collaboration, accessibility, and innovation within the **ROS and Robot
 
 This project began with the general mission of making it easier to teach [Robotics Operating System](http://www.ros.org/) (ROS) using Willow Garage’s [TurtleBot](http://www.turtlebot.com/).  We started brainstorming ways to facilitate and consolidate collaboration within the already-existent ROS education community.  This led us to develop a website using a Git web repository as the host, a collaboration platform many open source projects already use.  Once we got the ball rolling, we realized that the collaborative nature of the project enabled it to extend beyond just teaching ROS with TurtleBot; if anyone can upload material related to TurtleBot, they can also contribute any material relevant to teaching and learning robotics.  Therefore, the general purpose of this site is providing free robotics education resources relevant to any and all areas of robotics.
 
-###**Why Git and not Wiki?**
+###**Why GitHub and not Wiki?**
 
-
+Using GitHub as a host for this site has various advantages. Because the website is hosted in GitHub, the content (transferred from existing ROS Wiki pages and other sources) is easy to deploy and incorporate into courses. In addition, hosting this site on GitHub as opposed to on a Wiki allows for higher levels of quality assurance and less redundancy in the content. Users contribute by forking the repository, adding or editing content, and making a pull request.  All the content on the site is written in Markdown, with the exception of embedding external media which requires the use of HTML. 
 
 ###**What the Courses Look Like**
 
@@ -76,7 +76,14 @@ In addition, we have written guidelines for how to define these categories:
 
 ###**Organizing and Searching Through Material on this Site**
 
-All elements (courses, units, lessons, tutorials, and challenges) will be indexed and will reference the material they belong with.  In addition, units and the elements they contain can also be cross-referenced if material is applicable to more than one course and/or unit.  For more detail about indexing and referencing, see course on "How to Contribute."
+All educational material in this site is organized in **courses**. [All courses]({{ site.baseurl }}/all-courses) can be found in the "[All courses]({{ site.baseurl }}/all-courses)" tab in the top menu. In addition, there is also a tab in the top menu where you can find [all courses organized by category]({{ site.baseurl }}/categories). You can also browse through material on the site by its **tags** in the "[Tags]({{ site.baseurl }}/tags)" tab bound in the top menu.
 
-In this manner, contributors to the site can decide which category/categories to place their material in.  The courses will be composed of units, which in turn contain lessons, tutorials, and challenges.  Each element (courses, units, lessons, tutorials, and challenges) will have a header containing a reference ID and meta-data that both gives users a sense of the content and acts as a means of searching for course material in the repository. Units and the content in the units can be cross-referenced between courses as well as units so that course material can be recycled if appropriate. 
+All elements (courses, units, lessons, tutorials, and challenges) will be indexed and will reference the material they belong with.  In addition, units and the elements they contain can also be cross-referenced if material is applicable to more than one course and/or unit. 
 
+Contributors can decide which category/categories to place their material in.  The courses will be composed of units, which in turn contain lessons, tutorials, and challenges.  Each element (courses, units, lessons, tutorials, and challenges) will have a header containing a reference ID and meta-data that both gives users a sense of the content and acts as a means of searching for course material in the repository. Units and the content in the units can be cross-referenced between courses as well as units so that course material can be recycled if appropriate. 
+
+###**Thoughts on Users and Future Work**
+
+There currently exists a lot of educational online material such as the [ROS wiki tutorials](http://wiki.ros.org/ROS/Tutorials), [ROS-Industrial tutorials](http://wiki.ros.org/Industrial/Tutorials) and many other similar resources informing users about ROS and its applications. This site is meant to be a more selective and curated sample of existing online ROS educational material. We hope that this site will initially pick up steam within the ROS education community, mainly with online tutorials and higher-education courses.  Eventually, we would like to see this site extend beyond ROS tutorials and include general robotics educational resources. 
+
+In order to consolidate these online resources, it will require a significant amount of time and energy to tranfer existing content to this site. We have started transfering some content that we think will work well with this site, namely basic ROS and TurtleBot tutorials. The next steps for this site are to get users to contribute and transfer their material to the site.  This will require some means of incentivising users, such as creating a competition or providing recognition for contributions (right now, the closest we have to this is listing authors on the pages they contribute to).
