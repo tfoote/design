@@ -73,7 +73,7 @@ Once you have the header set up, go ahead and fill in the template with your mat
 Once you begin editing or adding new material, you will notice a section of the header dedicated to an **"under construction"** banner:
 
 <p align="center">
-<img src="/courses/how-to-contribute/under-construction.png"/>
+<img src="{{ site.baseurl }}/courses/how-to-contribute/under-construction.png"/>
 </p>
 
 The default of the **under_coustruction:** setting is set to **"True"** (all pages start out as "under construction").  However, once you decide that a page is finished, you may change the value of **under_construction:** to **"False"** (line 11 in the image above).
@@ -81,7 +81,7 @@ The default of the **under_coustruction:** setting is set to **"True"** (all pag
 If the page is still under construction and you wish to leave the banner, you may also speciy the author(s)'s name(s) and email(s).  The banner will appear in the sidebar like so:
 
 <p align="center">
-<img src="/courses/how-to-contribute/banner.png"/>
+<img src="{{ site.baseurl }}/courses/how-to-contribute/banner.png"/>
 </p>
 
 ##Comments Section

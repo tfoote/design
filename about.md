@@ -87,3 +87,9 @@ Contributors can decide which category/categories to place their material in.  T
 There currently exists a lot of educational online material such as the [ROS wiki tutorials](http://wiki.ros.org/ROS/Tutorials), [ROS-Industrial tutorials](http://wiki.ros.org/Industrial/Tutorials) and many other similar resources informing users about ROS and its applications. This site is meant to be a more selective and curated sample of existing online ROS educational material. We hope that this site will initially pick up steam within the ROS education community, mainly with online tutorials and higher-education courses.  Eventually, we would like to see this site extend beyond ROS tutorials and include general robotics educational resources. 
 
 In order to consolidate these online resources, it will require a significant amount of time and energy to tranfer existing content to this site. We have started transfering some content that we think will work well with this site, namely basic ROS and TurtleBot tutorials. The next steps for this site are to get users to contribute and transfer their material to the site.  This will require some means of incentivising users, such as creating a competition or providing recognition for contributions (right now, the closest we have to this is listing authors on the pages they contribute to).
+
+In addition, we have compiled a list of existing online resources that we think would work well with this site and can potentially serve as a good starting point for future development:
+
+* [ROS-Industrial]
+* [ROS tutorials]
+* [TurtleBot Courses]
