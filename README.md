@@ -10,20 +10,22 @@ In addition, for information on future work and opportunities to contribute, see
 
 ## Requirements for deployment
 
-For deploying locally, you need jekyll jekyll-sitemap pygments and nodejs installed
+For deploying, you must access and clone repository through GitHub.
+
+ you need jekyll jekyll-sitemap pygments and nodejs installed
 
 Then use jekyll command directly. 
 
 ## Working Locally and Requirements for Development
 
-You can run the site locally by running this command in this repository:
+For local development and testing, you need jekyll jekyll-sitemap pygments and nodejs installed (minimum version of jekyll required: )
+
+If you do not have the required version of jekyll, alternatively you may install docker (ubuntu package docker.io) and use it to run jekyll in a container (minimum version of docker required: )
+
+Once you have installed docker, you can run the site locally by running the following command in this repository:
 
 ```
 ./deploy_jekyll.sh
 ```
 
-For development and testing it requires docker to be installed. (ubuntu package docker.io)
-
-And navgiating to your browser to:
-
-[http://localhost:4000/](http://localhost:4000/)
+You can then view the site by navigating in your browser to:  [http://localhost:4000/](http://localhost:4000/)
